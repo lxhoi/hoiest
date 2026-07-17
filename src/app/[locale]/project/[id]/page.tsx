@@ -9,10 +9,6 @@ interface Props {
   params: Promise<{ locale: string; id: string }>;
 }
 
-export async function generateStaticParams() {
-  const ids = projects.map((_, index) => ({ id: index.toString() }));
-  return ids;
-}
 
 export async function generateMetadata({ params }: Props) {
   const { locale, id } = await params;

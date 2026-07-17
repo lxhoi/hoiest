@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "work": "Dự án",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "contact": "Liên hệ",
+    "slider": ["Nhận diện thương hiệu", "Thiết kế chữ", "Key Visual"]
+  },
+  "common": {
+    "btn_back": "Quay lại trang chủ"
+  },
+  "about": {
+    "title": "GIỚI THIỆU",
+    "text": "Với đam mê thiết kế chiến lược và kể chuyện thương hiệu, tôi chuyên biệt trong việc tạo ra những nhận diện thương hiệu độc đáo, gây tác động sâu sắc đến khán giả. Phương pháp làm việc của tôi kết hợp chiến lược dựa trên nghiên cứu với thiết kế tâm huyết, đảm bảo mọi yếu tố—từ logo, hệ thống thị giác đến các tài liệu tiếp thị—hoạt động một cách hài hòa để nâng cao giá trị thương hiệu của bạn. Tôi làm việc với cả startup và các doanh nghiệp đã thành lập để xây dựng những nhận diện thương hiệu ý nghĩa, có tác động và bền vững theo thời gian.",
+    "expertise": {
+      "title": "CHUYÊN BIỆT",
+      "identity": "Nhận Diện Thương Hiệu",
+      "identity_desc": "Tạo hệ thống thị giác toàn diện bao gồm thiết kế logo, bảng màu, chữ, và hướng dẫn thương hiệu.",
+      "visual": "Thiết Kế Thị Giác",
+      "visual_desc": "Thiết kế tài liệu tiếp thị, bao bì, tài sản kỹ thuật số và nội dung thị giác tăng cường hiện diện thương hiệu.",
+      "strategy": "Chiến Lược Thương Hiệu",
+      "strategy_desc": "Phát triển vị trí chiến lược thương hiệu thông qua nghiên cứu, phân tích cạnh tranh và hiểu biết về khán giả."
+    },
+    "services": {
+      "title": "DỊCH VỤ",
+      "list1": "Thiết Kế Logo & Biểu Tượng Thương Hiệu",
+      "list2": "Hệ Thống Nhận Diện Thương Hiệu",
+      "list3": "Hướng Dẫn Thương Hiệu & Tài Liệu",
+      "list4": "Tài Sản Tiếp Thị Thị Giác",
+      "list5": "Thiết Kế Bao Bì",
+      "list6": "Tư Vấn & Chiến Lược Thương Hiệu"
+    },
+    "approach": {
+      "title": "PHƯƠNG PHÁP CỦA TÔI",
+      "text": "Mỗi dự án bắt đầu với khám phá. Tôi tiến hành nghiên cứu sâu sắc để hiểu rõ doanh nghiệp, khán giả và bối cảnh cạnh tranh của bạn. Từ đó, tôi phát triển các khái niệm chiến lược có tính riêng biệt về thị giác nhưng lại khả thi về mặt thương mại. Quy trình làm việc của tôi nhấn mạnh sự hợp tác và tinh chỉnh, đảm bảo nhận diện cuối cùng không chỉ nhìn đáng kinh ngạc mà còn hiệu quả trong việc truyền đạt các giá trị cốt lõi và sứ mệnh của thương hiệu bạn."
+    }
+  },
+  "work": {
+    "title": "TẤT CẢ DỰ ÁN",
+    "project_other": "Dự án khác"
+  },
+  "contact": {
+    "title": "HÃY LÀM VIỆC CÙNG NHAU",
+    "subtitle": "Bạn đã sẵn sàng để tạo nên những điều tuyệt vời cùng nhau? Hãy điền vào biểu mẫu bên dưới để hẹn một buổi trò chuyện ngắn, chúng ta sẽ cùng thảo luận về dự án của bạn nhé. Tôi thường phản hồi trong vòng 48 giờ.",
+    "label": {
+      "name": "Tên",
+      "email": "Email",
+      "brand": "Tên thương hiệu/sản phẩm",
+      "deadline": "Thời hạn dự kiến",
+      "budget": "Ngân sách dự kiến",
+      "source": "Bạn tìm thấy tôi như thế nào?",
+      "desc": "Mô tả ngắn gọn về dự án"
+    },
+    "btn": {
+      "submit": "Gửi"
+    }
+  },
+  "footer": {
+    "cta": "LÀM VIỆC VỚI TÔI",
+    "social": "MẠNG XÃ HỘI",
+    "copyright": "© COPYRIGHT HOIEST<br>ALL RIGHTS RESERVED"
+  }
+}

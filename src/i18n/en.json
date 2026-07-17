@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "contact": "Contact",
+    "slider": ["Brand Identity", "Lettering", "Key Visual"]
+  },
+  "common": {
+    "btn_back": "Back to Home"
+  },
+  "about": {
+    "title": "ABOUT",
+    "text": "With a passion for strategic design and brand storytelling, I specialize in creating distinctive brand identities that resonate with audiences. My approach combines research-driven strategy with thoughtful design, ensuring every element—from logo and visual systems to marketing assets—works cohesively to elevate your brand. I work with startups and established businesses alike to craft meaningful, impactful identities that stand the test of time.",
+    "expertise": {
+      "title": "EXPERTISE",
+      "identity": "Brand Identity",
+      "identity_desc": "Creating comprehensive visual systems including logo design, color palettes, typography, and brand guidelines.",
+      "visual": "Visual Design",
+      "visual_desc": "Designing marketing collateral, packaging, digital assets, and visual content that strengthens brand presence.",
+      "strategy": "Brand Strategy",
+      "strategy_desc": "Developing strategic brand positioning through research, competitive analysis, and audience insights."
+    },
+    "services": {
+      "title": "SERVICES",
+      "list1": "Logo & Brand Mark Design",
+      "list2": "Brand Identity Systems",
+      "list3": "Brand Guidelines & Documentation",
+      "list4": "Visual Marketing Assets",
+      "list5": "Packaging Design",
+      "list6": "Brand Consultation & Strategy"
+    },
+    "approach": {
+      "title": "MY APPROACH",
+      "text": "Every project begins with discovery. I conduct in-depth research to understand your business, audience, and competitive landscape. From there, I develop strategic concepts that are visually distinctive yet commercially viable. My process emphasizes collaboration and refinement, ensuring the final identity not only looks remarkable but also effectively communicates your brand's core values and mission."
+    }
+  },
+  "work": {
+    "title": "ALL WORK",
+    "project_other": "Other Projects"
+  },
+  "contact": {
+    "title": "LET'S WORK TOGETHER",
+    "subtitle": "Ready to create something amazing together? Fill out the form below to schedule a quick chat so we can discuss your project. I typically respond within 48 hours.",
+    "label": {
+      "name": "Name",
+      "email": "Email",
+      "brand": "Brand/Product Name",
+      "deadline": "Estimated Deadline",
+      "budget": "Estimated Budget",
+      "source": "How did you find me?",
+      "desc": "Brief Project Description"
+    },
+    "btn": {
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "cta": "WORK WITH ME",
+    "social": "SOCIAL MEDIA",
+    "copyright": "© COPYRIGHT HOIEST<br>ALL RIGHTS RESERVED"
+  }
+}

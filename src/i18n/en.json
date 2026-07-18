@@ -9,11 +9,12 @@
     "slider": ["Brand Identity", "Lettering", "Key Visual"]
   },
   "common": {
-    "btn_back": "Back to Home"
+    "btn_back": "Back to Home",
+    "btn_read_more": "Read more"
   },
   "about": {
     "title": "ABOUT",
-    "text": "With a passion for strategic design and brand storytelling, I specialize in creating distinctive brand identities that resonate with audiences. My approach combines research-driven strategy with thoughtful design, ensuring every element—from logo and visual systems to marketing assets—works cohesively to elevate your brand. I work with startups and established businesses alike to craft meaningful, impactful identities that stand the test of time.",
+    "text": "With over 7 years of experience in Brand Identity Design, HOIEST (Hoi) has partnered with numerous brands to develop logos, typography, visual identities, and design assets for brand building.",
     "expertise": {
       "title": "EXPERTISE",
       "identity": "Brand Identity",

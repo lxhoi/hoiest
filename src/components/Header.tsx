@@ -13,7 +13,6 @@ export default function Header() {
       </Link>
       <nav className="nav-links" aria-label="Site sections">
         <Link href="/work">{t('work')}</Link>
-        <Link href="/about">{t('about')}</Link>
         <Link href="/contact">{t('contact')}</Link>
         <LanguageSwitcher />
       </nav>

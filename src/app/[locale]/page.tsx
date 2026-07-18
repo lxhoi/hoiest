@@ -42,11 +42,6 @@ export default function HomePage() {
           <div className="about-preview-content">
             <h2 className="section-title" style={{ marginBottom: '1.5rem' }}>{tAbout('title')}</h2>
             <p className="text-lg leading-relaxed mb-8">{tAbout('text')}</p>
-            <div>
-              <Link href="/about" className="btn-black">
-                {tCommon('btn_read_more')}
-              </Link>
-            </div>
           </div>
         </div>
       </section>

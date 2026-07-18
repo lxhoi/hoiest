@@ -4,6 +4,7 @@ import HeroSlider from '@/components/HeroSlider';
 import ProjectCard from '@/components/ProjectCard';
 import { projects } from '@/data/projects';
 import { Link } from '@/i18n/routing';
+import AboutAwwward from '@/components/AboutAwwward';
 
 export default function HomePage() {
   const t = useTranslations('work');
@@ -28,23 +29,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="about-preview-section container mt-32 mb-32">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative w-full aspect-square md:aspect-[4/5] bg-gray-100 overflow-hidden">
-            <Image 
-              src="/about/profile me.webp" 
-              alt="HOIEST Profile" 
-              fill 
-              unoptimized
-              className="object-cover"
-            />
-          </div>
-          <div className="about-preview-content">
-            <h2 className="section-title" style={{ marginBottom: '1.5rem' }}>{tAbout('title')}</h2>
-            <p className="text-lg leading-relaxed mb-8">{tAbout('text')}</p>
-          </div>
-        </div>
-      </section>
+      <AboutAwwward />
     </>
   );
 }

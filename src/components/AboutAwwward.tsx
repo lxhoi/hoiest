@@ -34,16 +34,15 @@ export default function AboutAwwward() {
               <span className="w-12 h-[1px] bg-gray-400"></span>
               {tAbout('title')}
             </h2>
-            <p className="text-3xl md:text-5xl lg:text-6xl font-medium leading-[1.2] tracking-tight">
+            <p className="text-xl md:text-2xl lg:text-3xl font-light leading-[1.6] tracking-wide text-gray-200 max-w-xl">
               {tAbout('text')}
             </p>
           </motion.div>
 
           <div className="w-full md:w-1/2 flex justify-center md:justify-end relative">
-            <div className="relative w-full max-w-[500px] aspect-[4/5] overflow-hidden rounded-2xl group">
-              <div className="absolute inset-0 bg-black/20 z-10 group-hover:bg-transparent transition-colors duration-700"></div>
+            <div className="relative w-full max-w-[400px] aspect-square overflow-hidden rounded-full">
               <motion.div 
-                style={{ y: yImage, scale: 1.1 }}
+                style={{ y: yImage, scale: 1.15 }}
                 className="w-full h-full"
               >
                 <Image 
@@ -51,7 +50,7 @@ export default function AboutAwwward() {
                   alt="HOIEST Profile" 
                   fill 
                   unoptimized
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  className="object-cover"
                 />
               </motion.div>
             </div>

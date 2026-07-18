@@ -60,7 +60,7 @@ export default async function ProjectDetailPage({ params }: Props) {
 
       <ProjectGallery project={project} />
 
-      <section className="projects-container" style={{ paddingTop: '80px', paddingBottom: '0' }}>
+      <section className="projects-container" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <h2 className="section-title" style={{ fontSize: '24px' }}>{t('project_other')}</h2>
         <div className="projects-grid">
           {otherProjects.map((p) => (

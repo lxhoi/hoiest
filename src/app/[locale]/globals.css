@@ -510,6 +510,7 @@ h1, h2, h3, h4, p, figure {
   text-transform: uppercase;
   flex: 1;
   margin-bottom: 20px;
+  line-height: 1.1;
 }
 
 .detail-info {

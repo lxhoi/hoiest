@@ -42,7 +42,7 @@ export default function AboutAwwward() {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end relative">
             <div className="relative w-full max-w-[400px] aspect-square overflow-hidden rounded-full">
               <motion.div 
-                style={{ y: yImage, scale: 1.15 }}
+                style={{ y: useTransform(scrollYProgress, [0, 1], [0, -30]) }}
                 className="w-full h-full"
               >
                 <Image 
@@ -50,7 +50,7 @@ export default function AboutAwwward() {
                   alt="HOIEST Profile" 
                   fill 
                   unoptimized
-                  className="object-cover"
+                  className="object-cover object-top"
                 />
               </motion.div>
             </div>
@@ -59,14 +59,7 @@ export default function AboutAwwward() {
 
       </div>
 
-      <div className="mt-40 relative flex overflow-hidden whitespace-nowrap opacity-10">
-        <motion.div 
-          style={{ x: marqueeX }}
-          className="text-[12vw] font-black uppercase tracking-tighter"
-        >
-          {tAbout('specialties')} • {tAbout('specialties')} • {tAbout('specialties')}
-        </motion.div>
-      </div>
+
 
     </section>
   );

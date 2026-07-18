@@ -6,6 +6,7 @@ import {Inter} from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import SmoothScroll from '@/components/SmoothScroll';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -37,11 +38,13 @@ export default async function LocaleLayout({
     <html lang={locale} className={inter.variable}>
       <body className="font-sans antialiased text-[var(--black)] bg-[var(--bg)] min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="flex-1" id="top">
-            {children}
-          </main>
-          <Footer />
+          <SmoothScroll>
+            <Header />
+            <main className="flex-1" id="top">
+              {children}
+            </main>
+            <Footer />
+          </SmoothScroll>
         </NextIntlClientProvider>
       </body>
     </html>

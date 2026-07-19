@@ -21,7 +21,7 @@ export default function AboutAwwward() {
   return (
     <section 
       ref={containerRef} 
-      className="relative w-full overflow-hidden bg-[#111] text-white py-40 my-20"
+      className="relative w-full overflow-hidden bg-[#111] text-white py-40 mt-20"
     >
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         

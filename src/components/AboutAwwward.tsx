@@ -34,7 +34,7 @@ export default function AboutAwwward() {
               <span className="w-12 h-[1px] bg-gray-400"></span>
               {tAbout('title')}
             </h2>
-            <p className="text-xl md:text-2xl lg:text-3xl font-light leading-[1.6] tracking-wide text-gray-200 max-w-xl">
+            <p className="text-xl md:text-2xl lg:text-3xl font-light leading-[1.6] tracking-wide text-gray-200 max-w-xl text-pretty">
               {tAbout('text')}
             </p>
           </motion.div>

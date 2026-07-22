@@ -484,7 +484,6 @@ h1, h2, h3, h4, p, figure {
 .footer-logotype img {
   width: 100%;
   display: block;
-  filter: invert(1);
 }
 
 /* Responsive Grid / Masonry for Project Detail Page */

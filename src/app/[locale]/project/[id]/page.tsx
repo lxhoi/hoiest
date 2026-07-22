@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { projects } from '@/data/projects';
 import ProjectGallery from '@/components/ProjectGallery';
 import ProjectCard from '@/components/ProjectCard';
+import LetteringProjectCard from '@/components/LetteringProjectCard';
 
 interface Props {
   params: Promise<{ locale: string; id: string }>;
@@ -41,8 +42,8 @@ export default async function ProjectDetailPage({ params }: Props) {
   // Filter other projects
   const otherProjects = projects
     .map((p, idx) => ({ ...p, idx }))
-    .filter((_, idx) => idx !== projectIndex)
-    .slice(0, 2);
+    .filter((p) => p.idx !== projectIndex && p.category === project.category)
+    .slice(0, project.category === 'lettering' ? 3 : 2);
 
   return (
     <div className="container">
@@ -62,9 +63,13 @@ export default async function ProjectDetailPage({ params }: Props) {
 
       <section className="projects-container" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <h2 className="section-title" style={{ fontSize: '24px' }}>{t('project_other')}</h2>
-        <div className="projects-grid">
+        <div className={project.category === 'lettering' ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0" : "projects-grid"}>
           {otherProjects.map((p) => (
-            <ProjectCard key={p.idx} project={p} index={p.idx} />
+            project.category === 'lettering' ? (
+              <LetteringProjectCard key={p.idx} project={p} index={p.idx} />
+            ) : (
+              <ProjectCard key={p.idx} project={p} index={p.idx} />
+            )
           ))}
         </div>
       </section>

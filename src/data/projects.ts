@@ -114,7 +114,7 @@ export const projects: Project[] = [
     description_en: "Lettering artwork: Đẳng cấp.",
     tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
     tags_en: ["Lettering", "Typography", "Word Art"],
-    images: ["dangcap.png"],
+    images: ["dang-cap.jpg"],
     category: 'lettering',
   },
   {
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     description_en: "Lettering artwork: Ghet Xog Lai Thik.",
     tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
     tags_en: ["Lettering", "Typography", "Word Art"],
-    images: ["ghetxoglaithik.png"],
+    images: ["ghet-xog-lai-thik.jpg"],
     category: 'lettering',
   },
   {
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     description_en: "Lettering artwork: Ngày của mẹ.",
     tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
     tags_en: ["Lettering", "Typography", "Word Art"],
-    images: ["ngaycuame.png"],
+    images: ["ngay-cua-me.jpg"],
     category: 'lettering',
   },
   {
@@ -144,7 +144,17 @@ export const projects: Project[] = [
     description_en: "Lettering artwork: Vạn sự như ý.",
     tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
     tags_en: ["Lettering", "Typography", "Word Art"],
-    images: ["vansunhuy.png"],
+    images: ["van-su-nhu-y.jpg"],
+    category: 'lettering',
+  },
+  {
+    title: "Phú Yên 78",
+    folder: "/projects/lettering",
+    description: "Tác phẩm lettering Phú Yên 78.",
+    description_en: "Lettering artwork: Phu Yen 78.",
+    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
+    tags_en: ["Lettering", "Typography", "Word Art"],
+    images: ["phu-yen-78.jpg"],
     category: 'lettering',
   }
 ];

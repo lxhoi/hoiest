@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   tags_en: string[];
   images: string[];
+  category: 'branding' | 'lettering' | 'motion';
 }
 
 export const projects: Project[] = [
@@ -38,6 +39,7 @@ export const projects: Project[] = [
       "17.webp",
       "18.webp",
     ],
+    category: 'branding',
   },
   {
     title: "Khansfit",
@@ -69,6 +71,7 @@ export const projects: Project[] = [
       "18.webp",
       "19.webp",
     ],
+    category: 'branding',
   },
   {
     title: "Winola Fine Jewelry",
@@ -102,5 +105,46 @@ export const projects: Project[] = [
       "20.webp",
       "21.webp",
     ],
+    category: 'branding',
   },
+  {
+    title: "Đẳng cấp",
+    folder: "/projects/lettering",
+    description: "Tác phẩm lettering Đẳng cấp.",
+    description_en: "Lettering artwork: Đẳng cấp.",
+    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
+    tags_en: ["Lettering", "Typography", "Word Art"],
+    images: ["dangcap.png"],
+    category: 'lettering',
+  },
+  {
+    title: "Ghet Xog Lai Thik",
+    folder: "/projects/lettering",
+    description: "Tác phẩm lettering Ghet Xog Lai Thik.",
+    description_en: "Lettering artwork: Ghet Xog Lai Thik.",
+    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
+    tags_en: ["Lettering", "Typography", "Word Art"],
+    images: ["ghetxoglaithik.png"],
+    category: 'lettering',
+  },
+  {
+    title: "Ngày của mẹ",
+    folder: "/projects/lettering",
+    description: "Tác phẩm lettering Ngày của mẹ.",
+    description_en: "Lettering artwork: Ngày của mẹ.",
+    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
+    tags_en: ["Lettering", "Typography", "Word Art"],
+    images: ["ngaycuame.png"],
+    category: 'lettering',
+  },
+  {
+    title: "Vạn sự như ý",
+    folder: "/projects/lettering",
+    description: "Tác phẩm lettering Vạn sự như ý.",
+    description_en: "Lettering artwork: Vạn sự như ý.",
+    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
+    tags_en: ["Lettering", "Typography", "Word Art"],
+    images: ["vansunhuy.png"],
+    category: 'lettering',
+  }
 ];

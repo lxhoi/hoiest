@@ -29,10 +29,9 @@ function ProjectTabsContent({ projects }: ProjectTabsProps) {
   ];
 
   const getProjectsForTab = () => {
-    if (activeTab === 'branding') {
-      return projects.map((p, index) => ({ project: p, index }));
-    }
-    return [];
+    return projects
+      .map((p, index) => ({ project: p, index }))
+      .filter(({ project }) => project.category === activeTab);
   };
 
   const currentProjects = getProjectsForTab();

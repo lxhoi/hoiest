@@ -24,7 +24,9 @@ export default function HomePage() {
         <h2 className="section-title">{t('title')}</h2>
         <div className="projects-grid">
           {projects.map((project, idx) => (
-            <ProjectCard key={idx} project={project} index={idx} />
+            project.category === 'branding' ? (
+              <ProjectCard key={idx} project={project} index={idx} />
+            ) : null
           ))}
         </div>
       </section>

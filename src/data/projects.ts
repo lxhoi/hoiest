@@ -11,6 +11,45 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "SASON",
+    folder: "/projects/sason",
+    description:
+      "SASON là thương hiệu khu nghỉ dưỡng ven biển theo đuổi triết lý sống chậm và hòa hợp cùng thiên nhiên. Với bảng màu ấm áp, mộc mạc gồm xanh rêu đậm và be kem nhẹ nhàng, bộ nhận diện thương hiệu được triển khai xuyên suốt mọi điểm chạm.\n\nLấy cảm hứng từ nhịp điệu tự nhiên của biển, cát và hàng dừa, SASON mời gọi du khách bước vào một chốn an yên, nơi sự tinh tế trong dịch vụ hòa quyện cùng sự giản đơn tĩnh tại, thể hiện qua từng chi tiết trong ngôn ngữ hình ảnh, từ biểu tượng logo mang phong cách huy hiệu đến các họa tiết thực vật xuất hiện xuyên suốt hành trình trải nghiệm của khách hàng.\n\nTừ ô dù bãi biển, tiện nghi phòng nghỉ đến đồng phục nhân viên, sản phẩm spa và ấn phẩm truyền thông, mang đến trải nghiệm liền mạch và thư thái từ lúc đặt chân đến khi rời đi.",
+    description_en:
+      "SASON is a coastal resort brand pursuing the philosophy of slow living and harmony with nature. With a warm, rustic palette of deep moss green and soft cream beige, the brand identity is implemented across all touchpoints.\n\nInspired by the natural rhythm of the sea, sand, and coconut trees, SASON invites visitors to a peaceful sanctuary, where refinement in service blends with serene simplicity, reflected in every detail of the visual language, from the badge-style logo emblem to botanical motifs appearing throughout the customer journey.\n\nFrom beach umbrellas and room amenities to staff uniforms, spa products, and promotional materials, it delivers a seamless and relaxing experience from arrival to departure.",
+    tags: ["Nhận diện thương hiệu", "Nghỉ dưỡng", "Hệ thống thiết kế"],
+    tags_en: ["Brand Identity", "Resort", "System Design"],
+    images: [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp",
+      "16.webp",
+      "17.webp",
+      "18.webp",
+      "19.webp",
+      "20.webp",
+      "21.webp",
+      "22.webp",
+      "23.webp",
+      "24.webp",
+      "25.webp",
+      "26.webp",
+    ],
+    category: 'branding',
+  },
+  {
     title: "RẠNG Coffee & Tea",
     folder: "/projects/rang-coffee-tea",
     description:

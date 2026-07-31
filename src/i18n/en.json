@@ -1,6 +1,7 @@
 {
   "nav": {
     "work": "Work",
+    "tutorials": "Tutorials",
     "about": "About",
     "contact": "Contact"
   },
@@ -42,6 +43,18 @@
   "work": {
     "title": "ALL WORK",
     "project_other": "Other Projects"
+  },
+  "tutorials": {
+    "title": "TUTORIALS",
+    "detail_title": "Course Details",
+    "benefits": "What will students get?",
+    "cost": "Cost:",
+    "capacity": "Class size:",
+    "format": "Format:",
+    "schedule": "Schedule:",
+    "duration": "Total duration:",
+    "faqs_title": "FREQUENTLY ASKED QUESTIONS",
+    "btn_register": "REGISTER NOW"
   },
   "contact": {
     "title": "LET'S WORK TOGETHER",

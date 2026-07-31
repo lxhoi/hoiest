@@ -20,6 +20,7 @@ export default function Header() {
             <Link href="/work?tab=motion" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">MOTION</Link>
           </div>
         </div>
+        <Link href="/tutorials" className="hover:opacity-70 transition-opacity">{t('tutorials')}</Link>
         <Link href="/contact" className="hover:opacity-70 transition-opacity">{t('contact')}</Link>
         <LanguageSwitcher />
       </nav>

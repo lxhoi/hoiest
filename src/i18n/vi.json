@@ -1,7 +1,6 @@
 {
   "nav": {
     "work": "Dự án",
-    "tutorials": "Bài hướng dẫn",
     "about": "Giới thiệu",
     "contact": "Liên hệ"
   },
@@ -43,18 +42,6 @@
   "work": {
     "title": "TẤT CẢ DỰ ÁN",
     "project_other": "Dự án khác"
-  },
-  "tutorials": {
-    "title": "BÀI HƯỚNG DẪN",
-    "detail_title": "Chi tiết khóa học",
-    "benefits": "Học viên nhận được gì?",
-    "cost": "Chi phí tham gia:",
-    "capacity": "Số lượng học viên:",
-    "format": "Hình thức học:",
-    "schedule": "Lịch học:",
-    "duration": "Tổng thời lượng:",
-    "faqs_title": "CÂU HỎI THƯỜNG GẶP",
-    "btn_register": "ĐĂNG KÝ NGAY"
   },
   "contact": {
     "title": "HÃY LÀM VIỆC CÙNG NHAU",

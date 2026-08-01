@@ -568,8 +568,9 @@ h1, h2, h3, h4, p, figure {
 .gallery-item:nth-child(13) { grid-column: span 6; }
 .gallery-item:nth-child(14) { grid-column: span 6; }
 .gallery-item:nth-child(15) { grid-column: span 12; }
-.gallery-item:nth-child(16) { grid-column: span 6; }
+.gallery-item:nth-child(16) { grid-column: span 12; }
 .gallery-item:nth-child(17) { grid-column: span 6; }
+.gallery-item:nth-child(18) { grid-column: span 6; }
 /* default fallback */
 .gallery-item { grid-column: span 12; }
 

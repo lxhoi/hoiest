@@ -48,7 +48,7 @@ export default function ProjectGallery({ project }: Props) {
 
   return (
     <>
-      <div className="project-gallery mt-10">
+      <div className={`project-gallery mt-10 project-gallery-${project.folder.split('/').pop()}`}>
         {project.images.map((img, idx) => (
           <button 
             key={idx} 

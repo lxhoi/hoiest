@@ -574,6 +574,13 @@ h1, h2, h3, h4, p, figure {
 /* default fallback */
 .gallery-item { grid-column: span 12; }
 
+/* Custom grid for Mezly Nail Lab */
+.project-gallery-mezly-nail-lab .gallery-item:nth-child(1) { grid-column: span 12; } /* 00.gif */
+.project-gallery-mezly-nail-lab .gallery-item:nth-child(2) { grid-column: span 12; } /* 01.png */
+.project-gallery-mezly-nail-lab .gallery-item:nth-child(3) { grid-column: span 12; } /* 02.png */
+.project-gallery-mezly-nail-lab .gallery-item:nth-child(4) { grid-column: span 6; }  /* 03.png */
+.project-gallery-mezly-nail-lab .gallery-item:nth-child(5) { grid-column: span 6; }  /* 04.png */
+
 /* Contact Page */
 .contact-container {
   max-width: 800px;

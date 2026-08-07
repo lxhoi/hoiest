@@ -17,7 +17,7 @@ export default function ProjectCard({ project, index }: Props) {
     <Link href={`/project/${index}`} className="project-card">
       <div className="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden">
         <Image
-          src={`${project.folder}/${project.images[0]}`}
+          src={`${project.folder}/${project.thumbnail || project.images[0]}`}
           alt={project.title}
           fill
           unoptimized

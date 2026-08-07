@@ -6,10 +6,46 @@ export interface Project {
   tags: string[];
   tags_en: string[];
   images: string[];
+  thumbnail?: string;
   category: 'branding' | 'lettering' | 'motion';
 }
 
 export const projects: Project[] = [
+  {
+    title: "Mezly Nail Lab",
+    folder: "/projects/mezly-nail-lab",
+    description: "Dự án thiết kế nhận diện thương hiệu cho Mezly Nail Lab.",
+    description_en: "Brand identity design project for Mezly Nail Lab.",
+    tags: ["Nhận diện thương hiệu", "Nail Salon"],
+    tags_en: ["Brand Identity", "Nail Salon"],
+    thumbnail: "08.png",
+    images: [
+      "00.gif",
+      "01.png",
+      "02.png",
+      "03.png",
+      "04.png",
+      "05.png",
+      "06.png",
+      "07.png",
+      "08.png",
+      "09.png",
+      "10.png",
+      "11.png",
+      "12.png",
+      "13.png",
+      "14.png",
+      "15.png",
+      "16.png",
+      "17.png",
+      "18.png",
+      "19.png",
+      "20.png",
+      "21.png",
+      "22.png"
+    ],
+    category: 'branding',
+  },
   {
     title: "SASON",
     folder: "/projects/sason",

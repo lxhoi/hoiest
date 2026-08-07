@@ -15,7 +15,7 @@ export default function LetteringProjectCard({ project, index }: Props) {
   return (
     <Link href={`/project/${index}`} className="group relative block w-full aspect-[4/5] overflow-hidden bg-gray-100">
       <Image
-        src={`${project.folder}/${project.images[0]}`}
+        src={`${project.folder}/${project.thumbnail || project.images[0]}`}
         alt={project.title}
         fill
         unoptimized

@@ -14,8 +14,8 @@ export const projects: Project[] = [
   {
     title: "Mezly Nail Lab",
     folder: "/projects/mezly-nail-lab",
-    description: "Dự án thiết kế nhận diện thương hiệu cho Mezly Nail Lab.",
-    description_en: "Brand identity design project for Mezly Nail Lab.",
+    description: "Mézly Nail Lab là dự án xây dựng hệ thống nhận diện thương hiệu cho một không gian nail cao cấp, hướng đến trải nghiệm làm đẹp hiện đại, tinh tế và thư giãn. Thương hiệu tập trung vào sự cân bằng giữa kỹ thuật chăm sóc móng chuyên nghiệp và cảm xúc của khách hàng, nơi mỗi dịch vụ không chỉ là một quy trình làm đẹp mà còn là một khoảnh khắc tận hưởng bản thân.",
+    description_en: "Mézly Nail Lab is a brand identity project for a premium nail space, aiming for a modern, sophisticated, and relaxing beauty experience. The brand focuses on the balance between professional nail care techniques and customer emotions, where each service is not just a beauty process but also a moment of self-indulgence.",
     tags: ["Nhận diện thương hiệu", "Nail Salon"],
     tags_en: ["Brand Identity", "Nail Salon"],
     thumbnail: "08.png",

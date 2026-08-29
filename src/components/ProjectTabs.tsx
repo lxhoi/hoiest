@@ -14,7 +14,7 @@ interface ProjectTabsProps {
   limits?: {
     branding?: number;
     lettering?: number;
-    motion?: number;
+    packaging?: number;
   };
   showViewMore?: boolean;
 }
@@ -26,7 +26,7 @@ function ProjectTabsContent({ projects, limits, showViewMore }: ProjectTabsProps
 
   useEffect(() => {
     const tabParam = searchParams.get('tab');
-    if (tabParam && ['branding', 'lettering', 'motion'].includes(tabParam)) {
+    if (tabParam && ['branding', 'lettering', 'packaging'].includes(tabParam)) {
       setActiveTab(tabParam);
     }
   }, [searchParams]);
@@ -34,7 +34,7 @@ function ProjectTabsContent({ projects, limits, showViewMore }: ProjectTabsProps
   const tabs = [
     { id: 'branding', label: 'NHẬN DIỆN THƯƠNG HIỆU' },
     { id: 'lettering', label: 'LETTERING' },
-    { id: 'motion', label: 'MOTION' },
+    { id: 'packaging', label: 'PACKAGING' },
   ];
 
   const getProjectsForTab = () => {

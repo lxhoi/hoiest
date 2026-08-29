@@ -5,6 +5,7 @@ import { projects } from '@/data/projects';
 import ProjectGallery from '@/components/ProjectGallery';
 import ProjectCard from '@/components/ProjectCard';
 import LetteringProjectCard from '@/components/LetteringProjectCard';
+import ProjectHeader from '@/components/ProjectHeader';
 
 interface Props {
   params: Promise<{ locale: string; id: string }>;
@@ -38,6 +39,8 @@ export default async function ProjectDetailPage({ params }: Props) {
 
   const desc = locale === 'en' ? project.description_en : project.description;
   const tags = locale === 'en' ? project.tags_en : project.tags;
+  const aboutQuote = locale === 'en' ? (project as any).about_quote_en : (project as any).about_quote;
+  const aboutContent = locale === 'en' ? (project as any).about_content_en : (project as any).about_content;
 
   // Filter other projects
   const otherProjects = projects
@@ -47,19 +50,9 @@ export default async function ProjectDetailPage({ params }: Props) {
 
   return (
     <div className="container">
-      <div className="detail-header">
-        <h1 className="detail-title">{project.title}</h1>
-        <div className="detail-info">
-          <p>{desc}</p>
-          <div className="detail-tags">
-            {tags.map((tag) => (
-              <span key={tag} className="tag-pill">{tag}</span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <ProjectGallery project={project} />
+      <ProjectHeader project={project} desc={desc} tags={tags} aboutQuote={aboutQuote} aboutContent={aboutContent}>
+        <ProjectGallery project={project} />
+      </ProjectHeader>
 
       <section className="projects-container" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <h2 className="section-title" style={{ fontSize: '24px' }}>{t('project_other')}</h2>

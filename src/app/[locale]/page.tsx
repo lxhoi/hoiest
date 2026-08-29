@@ -23,7 +23,7 @@ export default function HomePage() {
 
       <section className="projects-container container" id="projects">
         <h2 className="section-title">{t('title')}</h2>
-        <ProjectTabs projects={projects} limits={{ branding: 4, lettering: 3, motion: 0 }} showViewMore={true} />
+        <ProjectTabs projects={projects} limits={{ branding: 4, lettering: 3, packaging: 0 }} showViewMore={true} />
       </section>
 
       <AboutAwwward />

@@ -17,7 +17,7 @@ export default function Header() {
           <div className="absolute top-full left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 flex flex-col p-2 gap-1">
             <Link href="/work?tab=branding" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">NHẬN DIỆN THƯƠNG HIỆU</Link>
             <Link href="/work?tab=lettering" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">LETTERING</Link>
-            <Link href="/work?tab=motion" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">MOTION</Link>
+            <Link href="/work?tab=packaging" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">PACKAGING</Link>
           </div>
         </div>
         <Link href="/contact" className="hover:opacity-70 transition-opacity">{t('contact')}</Link>

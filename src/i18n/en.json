@@ -41,7 +41,12 @@
   },
   "work": {
     "title": "ALL WORK",
-    "project_other": "Other Projects"
+    "project_other": "Other Projects",
+    "tabs": {
+      "branding": "Brand Identity",
+      "lettering": "Lettering",
+      "packaging": "Packaging"
+    }
   },
   "contact": {
     "title": "LET'S WORK TOGETHER",

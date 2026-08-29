@@ -4,7 +4,8 @@ import LanguageSwitcher from './LanguageSwitcher';
 import Image from 'next/image';
 
 export default function Header() {
-  const t = useTranslations('nav');
+  const tNav = useTranslations('nav');
+  const tWork = useTranslations('work');
 
   return (
     <header className="site-header" aria-label="Primary navigation">
@@ -13,14 +14,14 @@ export default function Header() {
       </Link>
       <nav className="nav-links" aria-label="Site sections">
         <div className="relative group py-4 -my-4">
-          <Link href="/work" className="hover:opacity-70 transition-opacity">{t('work')}</Link>
+          <Link href="/work" className="hover:opacity-70 transition-opacity">{tNav('work')}</Link>
           <div className="absolute top-full left-0 mt-0 w-60 bg-white border border-gray-100 shadow-xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 flex flex-col p-2 gap-1">
-            <Link href="/work?tab=branding" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">NHẬN DIỆN THƯƠNG HIỆU</Link>
-            <Link href="/work?tab=lettering" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">LETTERING</Link>
-            <Link href="/work?tab=packaging" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">PACKAGING</Link>
+            <Link href="/work?tab=branding" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">{tWork('tabs.branding')}</Link>
+            <Link href="/work?tab=lettering" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">{tWork('tabs.lettering')}</Link>
+            <Link href="/work?tab=packaging" className="px-4 py-3 text-[11px] font-bold text-gray-800 hover:bg-gray-100 hover:text-black rounded-lg transition-colors">{tWork('tabs.packaging')}</Link>
           </div>
         </div>
-        <Link href="/contact" className="hover:opacity-70 transition-opacity">{t('contact')}</Link>
+        <Link href="/contact" className="hover:opacity-70 transition-opacity">{tNav('contact')}</Link>
         <LanguageSwitcher />
       </nav>
     </header>

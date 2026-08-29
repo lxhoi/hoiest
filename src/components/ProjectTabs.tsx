@@ -32,9 +32,9 @@ function ProjectTabsContent({ projects, limits, showViewMore }: ProjectTabsProps
   }, [searchParams]);
 
   const tabs = [
-    { id: 'branding', label: 'NHẬN DIỆN THƯƠNG HIỆU' },
-    { id: 'lettering', label: 'LETTERING' },
-    { id: 'packaging', label: 'PACKAGING' },
+    { id: 'branding', label: t('tabs.branding') },
+    { id: 'lettering', label: t('tabs.lettering') },
+    { id: 'packaging', label: t('tabs.packaging') },
   ];
 
   const getProjectsForTab = () => {

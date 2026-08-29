@@ -41,7 +41,12 @@
   },
   "work": {
     "title": "TẤT CẢ DỰ ÁN",
-    "project_other": "Dự án khác"
+    "project_other": "Dự án khác",
+    "tabs": {
+      "branding": "Nhận diện thương hiệu",
+      "lettering": "Thiết kế chữ",
+      "packaging": "BAO BÌ"
+    }
   },
   "contact": {
     "title": "HÃY LÀM VIỆC CÙNG NHAU",

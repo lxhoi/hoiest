@@ -265,19 +265,31 @@ export const projects: Project[] = [
     tags: ["Nhận diện thương hiệu", "Thiết kế hệ thống", "Branding"],
     tags_en: ["Brand Identity", "System Design", "Branding"],
     about_quote: "Vẻ đẹp vượt thời gian, định hình sắc sảo",
-    about_content: `<p>Tạo ra một bộ nhận diện hiện đại cho một thương hiệu trang sức cao cấp, cân bằng hoàn hảo giữa nghệ thuật thủ công truyền thống với sự thanh lịch, tinh tế đương đại.</p>
-<p>Sự sang trọng thực sự không cần phải ồn ào. Nó cho phép những chi tiết tinh xảo của sản phẩm tự lên tiếng bằng cách loại bỏ những yếu tố thị giác rườm rà.</p>
-<p>"Vẻ đẹp vượt thời gian, định hình sắc sảo" – Đạt được sự sang trọng đẳng cấp thông qua cấu trúc rõ ràng và sự tiết chế tuyệt đối.</p>
-<p>Bộ nhận diện đóng vai trò như một khung nền sang trọng, tĩnh lặng, đảm bảo trang sức vẫn là tâm điểm không thể bàn cãi mà không cần sự phô trương thừa thãi.</p>
-<p>Một ngôn ngữ typography uy quyền, tinh tế sử dụng nhiều khoảng trắng (negative space). Tính thẩm mỹ sạch sẽ và dễ dàng mở rộng quy mô từ bao bì tinh xảo cho đến một mặt tiền cửa hàng kỹ thuật số mượt mà.</p>
-<p>Winola đóng vai trò là một người giám tuyển cho vẻ đẹp vượt thời gian, cung cấp cho khách hàng những biểu tượng thanh lịch bền vững vượt qua những xu hướng phù du.</p>`,
+    about_content: `<p><strong>Khai thác Brief</strong></p>
+<p>Winola Fine Jewelry là thương hiệu trang sức cao cấp Việt Nam, hướng đến những phụ nữ hiện đại trân trọng vẻ đẹp tinh tế và bản sắc cá nhân. Bài toán đặt ra cho dự án là xây dựng một hệ thống nhận diện đủ linh hoạt để thích nghi trên mọi nền tảng—từ bao bì sản phẩm, quảng cáo ngoài trời, đến trải nghiệm số—đồng thời đủ mạnh để tạo ấn tượng ngay từ cái nhìn đầu tiên trong một thị trường trang sức vốn đã có nhiều tên tuổi định hình sẵn.</p>
+<p><strong>Insight</strong></p>
+<p>Phần lớn thương hiệu trang sức cao cấp xây dựng hình ảnh dựa trên sự lộng lẫy phổ quát—vẻ đẹp hoàn hảo, xa hoa nhưng đồng nhất, khiến người phụ nữ khi đeo lên đôi khi cảm thấy mình đang khoác một biểu tượng địa vị hơn là thể hiện chính mình. Nhưng phụ nữ Việt Nam hiện đại tìm kiếm nhiều hơn thế: họ muốn trang sức là một tuyên ngôn cá nhân, một cách để chạm đến và khẳng định nét riêng của bản thân, chứ không phải hòa lẫn vào một chuẩn mực chung.</p>
+<p><strong>Big Idea</strong></p>
+<p>Từ insight đó, ý tưởng lớn được định hình: "Chạm nét riêng"—mỗi sản phẩm của Winola không đơn thuần là một món trang sức, mà là một câu chuyện về sự nữ tính, về hành trình mỗi người phụ nữ chạm đến và tôn vinh bản sắc của chính mình.</p>
+<p><strong>Concept & Hình ảnh hiện lên</strong></p>
+<p>Trái tim của hệ thống nhận diện là biểu tượng lấy cảm hứng từ hình dáng vương miện được cách điệu mềm mại, uyển chuyển như những cánh hoa đang nở. Đường nét mảnh, thanh thoát của biểu tượng gợi liên tưởng đến sự tinh xảo trong nghề kim hoàn, đồng thời truyền tải một vẻ đẹp nữ tính nhưng không phô trương. Chi tiết này được tái hiện tinh tế trên chính các sản phẩm—như trên mặt dây chuyền tròn, nơi hình khối vương miện trở thành một họa tiết khắc nổi giàu tính nghệ thuật, biến sản phẩm thành vật phẩm mang dấu ấn thương hiệu rõ nét mà vẫn tinh giản.</p>
+<p>Wordmark "WINOLA" được thể hiện qua kiểu chữ serif thanh mảnh, đường nét mềm mại nhưng vẫn giữ được sự chỉn chu, sang trọng—cân bằng hoàn hảo giữa nét nữ tính và sự đĩnh đạc cần có của một thương hiệu cao cấp.</p>
+<p>Bảng màu chủ đạo với tông cam đào ấm áp và tím navy sâu lắng tạo nên một sự tương phản tinh tế: cam đào mang lại cảm giác gần gũi, nữ tính, trong khi navy khẳng định sự sang trọng, đáng tin cậy. Trên các ấn phẩm quảng cáo, hệ thống nhận diện được mở rộng linh hoạt—từ hình ảnh chân dung cận cảnh tôn vinh vẻ đẹp tự nhiên của người phụ nữ đeo trang sức, đến các thông điệp cô đọng như "Chạm – Nét Riêng" trên nền màu tối sâu lắng, tạo hiệu ứng thị giác ấn tượng và giàu cảm xúc.</p>
+<p><strong>Vai trò thương hiệu</strong></p>
+<p>Với hệ thống nhận diện này, Winola không chỉ đóng vai trò một thương hiệu trang sức, mà trở thành người bạn đồng hành giúp mỗi phụ nữ tự tin thể hiện bản sắc riêng của mình. Thương hiệu định vị mình đủ linh hoạt để thích nghi trên mọi nền tảng, đủ mạnh mẽ để tạo ấn tượng ngay từ cái nhìn đầu tiên, và đủ sâu sắc để kể một câu chuyện—về người phụ nữ Việt Nam hiện đại, tự tin chạm đến nét riêng của chính mình.</p>`,
     about_quote_en: "Timeless elegance, sharply defined",
-    about_content_en: `<p>Craft a modern identity for a fine jewelry brand that perfectly balances traditional craftsmanship with contemporary, sophisticated elegance.</p>
-<p>True luxury doesn't need to shout. It allows the exquisite detail of the product to speak for itself by removing visual clutter.</p>
-<p>"Timeless elegance, sharply defined" – Achieving premium luxury through structural clarity and absolute restraint.</p>
-<p>The identity acts as a quiet, luxurious framework, ensuring the jewelry remains the undisputed focal point without unnecessary ostentation.</p>
-<p>A refined, authoritative typographic language utilizing heavy negative space. The aesthetic is clean and scales effortlessly from delicate packaging to a seamless digital storefront.</p>
-<p>Winola acts as a curator of timeless beauty, providing customers with enduring symbols of elegance that transcend fleeting trends.</p>`,
+    about_content_en: `<p><strong>The Brief</strong></p>
+<p>Winola Fine Jewelry is a premium Vietnamese jewelry brand catering to modern women who appreciate refined beauty and personal identity. The challenge for the project was to build an identity system flexible enough to adapt across all platforms—from product packaging and outdoor advertising to the digital experience—while remaining strong enough to make an immediate impression in a jewelry market already dominated by established names.</p>
+<p><strong>Insight</strong></p>
+<p>Most fine jewelry brands build their image around a universal splendor—flawless, opulent, yet uniform beauty that often makes the wearer feel they are donning a status symbol rather than expressing themselves. But modern Vietnamese women seek more than that: they want jewelry to be a personal statement, a way to touch and affirm their unique traits, rather than blending into a common standard.</p>
+<p><strong>Big Idea</strong></p>
+<p>From that insight, the big idea was shaped: "Touch Your Unique Mark" (Chạm nét riêng). Every Winola product is not just a piece of jewelry, but a story about femininity, about the journey of every woman to touch and celebrate her own identity.</p>
+<p><strong>Concept & Visual Identity</strong></p>
+<p>At the heart of the identity system is a symbol inspired by the shape of a crown, stylized softly and fluidly like blooming petals. The thin, elegant lines of the emblem evoke the exquisite craftsmanship of jewelry making, while conveying a feminine yet understated beauty. This detail is delicately replicated on the products themselves—such as on a round pendant, where the crown shape becomes an artful embossed motif, turning the product into a clear yet minimalist brand signature piece.</p>
+<p>The "WINOLA" wordmark is rendered in a slender serif typeface, with soft lines that still maintain a sense of precision and luxury—striking a perfect balance between femininity and the poise required of a premium brand.</p>
+<p>The primary color palette, featuring a warm peach and a deep navy purple, creates a sophisticated contrast: peach brings a sense of approachability and femininity, while navy asserts luxury and reliability. On advertising materials, the identity system expands flexibly—from close-up portraits celebrating the natural beauty of women wearing the jewelry, to concise messages like "Touch – Your Unique Mark" set against deep, dark backgrounds, creating a striking and emotionally rich visual effect.</p>
+<p><strong>Brand Role</strong></p>
+<p>With this identity system, Winola serves not merely as a jewelry brand, but becomes a companion helping every woman confidently express her unique identity. The brand positions itself as flexible enough to adapt across all platforms, strong enough to make an impression at first glance, and profound enough to tell a story—about the modern Vietnamese woman, confidently touching her very own unique mark.</p>`,
     images: [
       "01.webp",
       "02.webp",

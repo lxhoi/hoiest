@@ -55,7 +55,7 @@ export const projects: Project[] = [
       "04.png",
       "05.png",
       "06.png",
-      "07.webp",
+      "07.png",
       "08.png",
       "09.png",
       "10.png",

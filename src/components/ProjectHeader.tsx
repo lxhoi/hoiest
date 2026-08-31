@@ -26,7 +26,7 @@ export default function ProjectHeader({ project, desc, tags, aboutQuote, aboutCo
           <p style={{ marginBottom: '15px' }}>{desc}</p>
           <div className="detail-tags" style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
             {tags.map((tag) => (
-              <span key={tag} className="tag-pill" style={{ fontSize: '12px', padding: '4px 12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>{tag}</span>
+              <span key={tag} className="tag-pill" style={{ fontSize: '12px', padding: '4px 12px', borderRadius: '4px' }}>{tag}</span>
             ))}
           </div>
         </div>

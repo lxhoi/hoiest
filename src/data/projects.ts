@@ -353,6 +353,7 @@ export const projects: Project[] = [
 <p><strong>Vai trò thương hiệu</strong></p>
 <p>Với hệ thống nhận diện này, Yummy Feast không chỉ đóng vai trò một sản phẩm trên kệ hàng, mà trở thành một điểm tựa niềm tin cho người nuôi mèo—nơi khoa học dinh dưỡng được trình bày minh bạch, dễ hiểu, và dễ lựa chọn. Thương hiệu định vị mình như một người bạn đồng hành đáng tin cậy trong hành trình chăm sóc sức khỏe cho mèo, biến mỗi bữa ăn từ một thói quen đơn thuần thành một quyết định được cân nhắc kỹ lưỡng, có cơ sở khoa học rõ ràng—đúng như tinh thần "bữa ăn chính hoàn chỉnh" mà Yummy Feast muốn đại diện.</p>`,
     images: [
+      "vid-1.gif",
       "01.webp",
       "02.webp",
       "03.webp",

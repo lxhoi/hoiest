@@ -352,9 +352,10 @@ export const projects: Project[] = [
 <p>Tinh thần thiết kế tổng thể có thể tóm gọn trong ba từ khóa: Clean – Modern – Trustworthy. Nền trắng chủ đạo, mảng màu block lớn, typography sans-serif chắc khỏe với chữ "Yummy Feast" bo tròn thân thiện, tạo cảm giác hiện đại, sạch sẽ, khác biệt hẳn với hình ảnh bao bì thức ăn thú cưng truyền thống vốn thường dùng ảnh chụp thực phẩm trực tiếp.</p>
 <p><strong>Vai trò thương hiệu</strong></p>
 <p>Với hệ thống nhận diện này, Yummy Feast không chỉ đóng vai trò một sản phẩm trên kệ hàng, mà trở thành một điểm tựa niềm tin cho người nuôi mèo—nơi khoa học dinh dưỡng được trình bày minh bạch, dễ hiểu, và dễ lựa chọn. Thương hiệu định vị mình như một người bạn đồng hành đáng tin cậy trong hành trình chăm sóc sức khỏe cho mèo, biến mỗi bữa ăn từ một thói quen đơn thuần thành một quyết định được cân nhắc kỹ lưỡng, có cơ sở khoa học rõ ràng—đúng như tinh thần "bữa ăn chính hoàn chỉnh" mà Yummy Feast muốn đại diện.</p>`,
+    thumbnail: "01.webp",
     images: [
-      "vid-1.gif",
       "01.webp",
+      "vid-1.gif",
       "02.webp",
       "03.webp",
       "04.webp",

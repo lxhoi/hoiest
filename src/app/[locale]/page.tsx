@@ -7,9 +7,9 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="projects-container container-narrow" id="projects">
+      <section className="projects-container container" id="projects">
         <h2 className="section-title">{t('title')}</h2>
-        <ProjectTabs projects={projects} limits={{ branding: 4, ui_ux: 3, packaging: 4 }} showViewMore={true} />
+        <ProjectTabs projects={projects} limits={{ all: 6, branding: 6, ui_ux: 6, packaging: 6 }} showViewMore={true} />
       </section>
     </>
   );

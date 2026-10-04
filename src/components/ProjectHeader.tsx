@@ -38,7 +38,7 @@ export default function ProjectHeader({ project, desc, tags, aboutQuote, aboutCo
       <div className="relative w-full h-full">
         <div className="hidden lg:flex sticky top-[30px] z-50 justify-end h-0 w-full" style={{ pointerEvents: 'none' }}>
           <button 
-            className="about-project-btn bg-[#E7DDCA] text-black hover:opacity-80 transition-opacity rounded-md px-6 py-3 flex items-center gap-2 text-sm ml-5 cursor-pointer border-none shadow-[0_4px_20px_rgba(0,0,0,0.08)]"
+            className="about-project-btn bg-[#E7DDCA] text-black hover:opacity-80 transition-opacity rounded-md px-8 py-4 flex items-center gap-2 text-[15px] ml-5 cursor-pointer border-none shadow-[0_4px_20px_rgba(0,0,0,0.08)] font-medium"
             style={{ pointerEvents: 'auto' }}
             onClick={() => setIsExpanded(!isExpanded)}
           >
@@ -100,7 +100,7 @@ export default function ProjectHeader({ project, desc, tags, aboutQuote, aboutCo
       {!isMobileModalOpen && (
         <div className="lg:hidden fixed bottom-8 left-1/2 -translate-x-1/2 z-40">
           <button 
-            className="bg-[#f2f2f2]/95 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] text-[15px] flex items-center gap-2 border border-black/5 whitespace-nowrap font-medium text-black transition-transform active:scale-95"
+            className="bg-[#f2f2f2]/95 backdrop-blur-md px-6 py-4 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] text-[15px] flex items-center gap-2 border border-black/5 whitespace-nowrap font-medium text-black transition-transform active:scale-95"
             onClick={() => setIsMobileModalOpen(true)}
           >
             About the project +

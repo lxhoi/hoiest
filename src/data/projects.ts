@@ -81,8 +81,8 @@ export const projects: Project[] = [
       "SASON là thương hiệu khu nghỉ dưỡng ven biển theo đuổi triết lý sống chậm và hòa hợp cùng thiên nhiên. Với bảng màu ấm áp, mộc mạc gồm xanh rêu đậm và be kem nhẹ nhàng, bộ nhận diện thương hiệu được triển khai xuyên suốt mọi điểm chạm.\n\nLấy cảm hứng từ nhịp điệu tự nhiên của biển, cát và hàng dừa, SASON mời gọi du khách bước vào một chốn an yên, nơi sự tinh tế trong dịch vụ hòa quyện cùng sự giản đơn tĩnh tại, thể hiện qua từng chi tiết trong ngôn ngữ hình ảnh, từ biểu tượng logo mang phong cách huy hiệu đến các họa tiết thực vật xuất hiện xuyên suốt hành trình trải nghiệm của khách hàng.\n\nTừ ô dù bãi biển, tiện nghi phòng nghỉ đến đồng phục nhân viên, sản phẩm spa và ấn phẩm truyền thông, mang đến trải nghiệm liền mạch và thư thái từ lúc đặt chân đến khi rời đi.",
     description_en:
       "SASON is a coastal resort brand pursuing the philosophy of slow living and harmony with nature. With a warm, rustic palette of deep moss green and soft cream beige, the brand identity is implemented across all touchpoints.\n\nInspired by the natural rhythm of the sea, sand, and coconut trees, SASON invites visitors to a peaceful sanctuary, where refinement in service blends with serene simplicity, reflected in every detail of the visual language, from the badge-style logo emblem to botanical motifs appearing throughout the customer journey.\n\nFrom beach umbrellas and room amenities to staff uniforms, spa products, and promotional materials, it delivers a seamless and relaxing experience from arrival to departure.",
-    tags: ["Nhận diện thương hiệu"],
-    tags_en: ["Branding"],
+    tags: ["Nhận diện thương hiệu", "Bao bì"],
+    tags_en: ["Branding", "Packaging"],
     about_quote: "Nhịp điệu biển khơi, thư thả và hài hoà",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>SASON là thương hiệu khu nghỉ dưỡng ven biển, được xây dựng trên triết lý sống chậm và hòa hợp cùng thiên nhiên. Bài toán đặt ra cho dự án là phát triển một hệ thống nhận diện có khả năng triển khai nhất quán trên vô số điểm chạm—từ ô dù bãi biển, tiện nghi phòng nghỉ, đến đồng phục nhân viên, sản phẩm spa và ấn phẩm truyền thông—mà vẫn giữ được sự tinh tế, mộc mạc đúng tinh thần thương hiệu muốn hướng tới.</p>
@@ -146,8 +146,8 @@ export const projects: Project[] = [
       "Bộ nhận diện thương hiệu tươi sáng dành cho tiệm cà phê và trà, nổi bật với logotype chữ R tùy chỉnh. Thiết kế mang lại cảm giác gần gũi với tông màu cam bắt mắt, được ứng dụng linh hoạt trên biển hiệu, ly tách, bao bì và không gian quán.",
     description_en:
       "A bright coffee and tea identity with a custom R-led wordmark, warm retail cues, and a punchy orange system designed for signage, cups, packaging, and spatial touchpoints.",
-    tags: ["Nhận diện thương hiệu","UI/UX","Bao bì"],
-    tags_en: ["Branding","UI/UX","Packaging"],
+    tags: ["Nhận diện thương hiệu", "Bao bì"],
+    tags_en: ["Branding", "Packaging"],
     about_quote: "Hương vị ấm áp và tràn đầy năng lượng trong từng ly",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>RẠNG ra đời như một thương hiệu cà phê Việt Nam đương đại, hướng đến việc phục vụ khách hàng trong nhịp sống đô thị bận rộn—từ cốc espresso sáng sớm, tách cà phê rang xay tại quầy, đến các sản phẩm mang đi và merchandise đi kèm. Bài toán đặt ra không chỉ là một logo đẹp, mà là một hệ thống nhận diện đủ linh hoạt để hiện diện xuyên suốt từ bao bì, không gian quán, đến các nền tảng số—trong khi vẫn giữ được bản sắc riêng giữa vô vàn thương hiệu cà phê khác trên thị trường.</p>
@@ -320,8 +320,8 @@ export const projects: Project[] = [
     folder: "/projects/yummy-feast",
     description: "Yummy Feast là dòng thức ăn dạng thanh hoàn chỉnh cho mèo, dành cho những người nuôi mèo coi trọng dinh dưỡng khoa học nhưng vẫn ưu tiên sự tiện lợi trong từng bữa ăn. Thay vì mượn hình ảnh hấp dẫn vị giác quen thuộc của ngành hàng, Yummy Feast chọn ngôn ngữ thị giác gần với nhãn dinh dưỡng—rõ ràng, có số liệu, đáng tin cậy—để khẳng định vị thế một bữa ăn chính hoàn chỉnh, chứ không đơn thuần là một món snack cho mèo.",
     description_en: "Yummy Feast is a complete bar-form cat food designed for cat owners who prioritize scientific nutrition while valuing convenience in every meal. Rather than borrowing the familiar, appetite-appealing imagery of the pet food category, Yummy Feast adopts a visual language closer to nutrition labels—clear, data-driven, and trustworthy—to establish itself as a complete primary meal, not merely a pet snack.",
-    tags: ["Nhận diện thương hiệu"],
-    tags_en: ["Branding"],
+    tags: ["Nhận diện thương hiệu", "Bao bì"],
+    tags_en: ["Branding", "Packaging"],
     about_quote_en: "Every stick is a complete meal",
     about_content_en: `<p>In a pet food category crowded with images of raw meat and loud nutritional claims, Yummy Feast set out to speak a different language—one closer to the clarity of a nutrition label than the noise of a snack aisle. Developed as a complete meal in stick form for cats, Yummy Feast is aimed at owners who take feline nutrition seriously, and who value convenience without compromising on rigor.</p>
 <p><strong>The Brief</strong></p>

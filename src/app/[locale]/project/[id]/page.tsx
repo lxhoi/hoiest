@@ -46,7 +46,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   const otherProjects = projects
     .map((p, idx) => ({ ...p, idx }))
     .filter((p) => p.idx !== projectIndex && p.category === project.category)
-    .slice(0, project.category === 'lettering' ? 3 : 2);
+    .slice(0, project.category === 'ui_ux' ? 3 : 2);
 
   return (
     <div className="container">
@@ -56,9 +56,9 @@ export default async function ProjectDetailPage({ params }: Props) {
 
       <section className="projects-container" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <h2 className="section-title" style={{ fontSize: '24px' }}>{t('project_other')}</h2>
-        <div className={project.category === 'lettering' ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0" : "projects-grid"}>
+        <div className={project.category === 'ui_ux' ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0" : "projects-grid"}>
           {otherProjects.map((p) => (
-            project.category === 'lettering' ? (
+            project.category === 'ui_ux' ? (
               <LetteringProjectCard key={p.idx} project={p} index={p.idx} />
             ) : (
               <ProjectCard key={p.idx} project={p} index={p.idx} />

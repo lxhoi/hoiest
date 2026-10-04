@@ -13,7 +13,7 @@ interface ProjectTabsProps {
   projects: Project[];
   limits?: {
     branding?: number;
-    lettering?: number;
+    ui_ux?: number;
     packaging?: number;
   };
   showViewMore?: boolean;
@@ -26,14 +26,14 @@ function ProjectTabsContent({ projects, limits, showViewMore }: ProjectTabsProps
 
   useEffect(() => {
     const tabParam = searchParams.get('tab');
-    if (tabParam && ['branding', 'lettering', 'packaging'].includes(tabParam)) {
+    if (tabParam && ['branding', 'ui_ux', 'packaging'].includes(tabParam)) {
       setActiveTab(tabParam);
     }
   }, [searchParams]);
 
   const tabs = [
     { id: 'branding', label: t('tabs.branding') },
-    { id: 'lettering', label: t('tabs.lettering') },
+    { id: 'ui_ux', label: t('tabs.ui_ux') },
     { id: 'packaging', label: t('tabs.packaging') },
   ];
 
@@ -72,10 +72,10 @@ function ProjectTabsContent({ projects, limits, showViewMore }: ProjectTabsProps
         ))}
       </div>
 
-      <div className={activeTab === 'lettering' ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0" : "projects-grid"}>
+      <div className={activeTab === 'ui_ux' ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0" : "projects-grid"}>
         {currentProjects.length > 0 ? (
           currentProjects.map(({ project, index }) => (
-            activeTab === 'lettering' ? (
+            activeTab === 'ui_ux' ? (
               <LetteringProjectCard key={index} project={project} index={index} />
             ) : (
               <ProjectCard key={index} project={project} index={index} />

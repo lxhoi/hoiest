@@ -7,7 +7,7 @@ export interface Project {
   tags_en: string[];
   images: string[];
   thumbnail?: string;
-  category: 'branding' | 'lettering' | 'packaging';
+  category: 'branding' | 'ui_ux' | 'packaging';
   about_quote?: string;
   about_quote_en?: string;
   about_content?: string;
@@ -20,8 +20,8 @@ export const projects: Project[] = [
     folder: "/projects/mezly-nail-lab",
     description: "Mézly Nail Lab là dự án xây dựng hệ thống nhận diện thương hiệu cho một không gian nail cao cấp, hướng đến trải nghiệm làm đẹp hiện đại, tinh tế và thư giãn. Thương hiệu tập trung vào sự cân bằng giữa kỹ thuật chăm sóc móng chuyên nghiệp và cảm xúc của khách hàng, nơi mỗi dịch vụ không chỉ là một quy trình làm đẹp mà còn là một khoảnh khắc tận hưởng bản thân.",
     description_en: "Mézly Nail Lab is a brand identity project for a premium nail space, aiming for a modern, sophisticated, and relaxing beauty experience. The brand focuses on the balance between professional nail care techniques and customer emotions, where each service is not just a beauty process but also a moment of self-indulgence.",
-    tags: ["Nhận diện thương hiệu", "Nail Salon"],
-    tags_en: ["Brand Identity", "Nail Salon"],
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote: "Chăm sóc tỉ mỉ, thư giãn tĩnh lặng",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>Mézly Nail Lab ra đời với bài toán xây dựng hệ thống nhận diện thương hiệu cho một không gian nail cao cấp—nơi hướng đến trải nghiệm làm đẹp hiện đại, tinh tế và thư giãn. Thách thức đặt ra không chỉ là tạo một bộ nhận diện đẹp mắt, mà phải phản ánh đúng bản chất kép của dịch vụ: sự chính xác của kỹ thuật chăm sóc móng chuyên nghiệp, song hành với chiều sâu cảm xúc mà mỗi khách hàng tìm kiếm khi bước vào không gian này.</p>
@@ -81,8 +81,8 @@ export const projects: Project[] = [
       "SASON là thương hiệu khu nghỉ dưỡng ven biển theo đuổi triết lý sống chậm và hòa hợp cùng thiên nhiên. Với bảng màu ấm áp, mộc mạc gồm xanh rêu đậm và be kem nhẹ nhàng, bộ nhận diện thương hiệu được triển khai xuyên suốt mọi điểm chạm.\n\nLấy cảm hứng từ nhịp điệu tự nhiên của biển, cát và hàng dừa, SASON mời gọi du khách bước vào một chốn an yên, nơi sự tinh tế trong dịch vụ hòa quyện cùng sự giản đơn tĩnh tại, thể hiện qua từng chi tiết trong ngôn ngữ hình ảnh, từ biểu tượng logo mang phong cách huy hiệu đến các họa tiết thực vật xuất hiện xuyên suốt hành trình trải nghiệm của khách hàng.\n\nTừ ô dù bãi biển, tiện nghi phòng nghỉ đến đồng phục nhân viên, sản phẩm spa và ấn phẩm truyền thông, mang đến trải nghiệm liền mạch và thư thái từ lúc đặt chân đến khi rời đi.",
     description_en:
       "SASON is a coastal resort brand pursuing the philosophy of slow living and harmony with nature. With a warm, rustic palette of deep moss green and soft cream beige, the brand identity is implemented across all touchpoints.\n\nInspired by the natural rhythm of the sea, sand, and coconut trees, SASON invites visitors to a peaceful sanctuary, where refinement in service blends with serene simplicity, reflected in every detail of the visual language, from the badge-style logo emblem to botanical motifs appearing throughout the customer journey.\n\nFrom beach umbrellas and room amenities to staff uniforms, spa products, and promotional materials, it delivers a seamless and relaxing experience from arrival to departure.",
-    tags: ["Nhận diện thương hiệu", "Nghỉ dưỡng", "Hệ thống thiết kế"],
-    tags_en: ["Brand Identity", "Resort", "System Design"],
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote: "Nhịp điệu biển khơi, thư thả và hài hoà",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>SASON là thương hiệu khu nghỉ dưỡng ven biển, được xây dựng trên triết lý sống chậm và hòa hợp cùng thiên nhiên. Bài toán đặt ra cho dự án là phát triển một hệ thống nhận diện có khả năng triển khai nhất quán trên vô số điểm chạm—từ ô dù bãi biển, tiện nghi phòng nghỉ, đến đồng phục nhân viên, sản phẩm spa và ấn phẩm truyền thông—mà vẫn giữ được sự tinh tế, mộc mạc đúng tinh thần thương hiệu muốn hướng tới.</p>
@@ -146,8 +146,8 @@ export const projects: Project[] = [
       "Bộ nhận diện thương hiệu tươi sáng dành cho tiệm cà phê và trà, nổi bật với logotype chữ R tùy chỉnh. Thiết kế mang lại cảm giác gần gũi với tông màu cam bắt mắt, được ứng dụng linh hoạt trên biển hiệu, ly tách, bao bì và không gian quán.",
     description_en:
       "A bright coffee and tea identity with a custom R-led wordmark, warm retail cues, and a punchy orange system designed for signage, cups, packaging, and spatial touchpoints.",
-    tags: ["Nhận diện thương hiệu", "Thiết kế chữ", "Bao bì", "Bán lẻ"],
-    tags_en: ["Brand Identity", "Custom Lettering", "Packaging", "Retail"],
+    tags: ["Nhận diện thương hiệu","UI/UX","Bao bì"],
+    tags_en: ["Branding","UI/UX","Packaging"],
     about_quote: "Hương vị ấm áp và tràn đầy năng lượng trong từng ly",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>RẠNG ra đời như một thương hiệu cà phê Việt Nam đương đại, hướng đến việc phục vụ khách hàng trong nhịp sống đô thị bận rộn—từ cốc espresso sáng sớm, tách cà phê rang xay tại quầy, đến các sản phẩm mang đi và merchandise đi kèm. Bài toán đặt ra không chỉ là một logo đẹp, mà là một hệ thống nhận diện đủ linh hoạt để hiện diện xuyên suốt từ bao bì, không gian quán, đến các nền tảng số—trong khi vẫn giữ được bản sắc riêng giữa vô vàn thương hiệu cà phê khác trên thị trường.</p>
@@ -204,8 +204,8 @@ export const projects: Project[] = [
       "Bộ nhận diện thương hiệu phòng tập tràn đầy năng lượng, sử dụng phông chữ đậm nét, sắc xanh điện nổi bật cùng hệ thống monogram linh hoạt. Thiết kế dễ dàng ứng dụng từ đồng phục, áp phích đến các ấn phẩm truyền thông trên mạng xã hội.",
     description_en:
       "A high-energy fitness identity built from heavy type, electric blue, and a flexible monogram system that scales from apparel and posters to social-first brand moments.",
-    tags: ["Nhận diện thương hiệu", "Logotype", "Chữ lồng", "Chiến dịch"],
-    tags_en: ["Brand Identity", "Logotype", "Monogram", "Campaign"],
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote: "Năng lượng bùng nổ, tác động mạnh mẽ",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>KHANSFIT ra đời với bài toán xây dựng nhận diện thương hiệu cho một chuỗi phòng tập gym cao cấp, nơi cần cân bằng giữa hai yếu tố tưởng chừng đối lập: cường độ tập luyện khắc nghiệt và trải nghiệm dịch vụ đẳng cấp. Với hệ thống cơ sở vật chất hiện đại, trang thiết bị cao cấp cùng đội ngũ huấn luyện viên chuyên nghiệp, thương hiệu cần một hệ nhận diện đủ mạnh mẽ để truyền tải sức mạnh, nhưng cũng đủ tinh tế để phản ánh sự sang trọng.</p>
@@ -262,8 +262,8 @@ export const projects: Project[] = [
       "Bộ nhận diện thương hiệu hiện đại cho nhãn hàng Winola, tập trung vào cảm giác sang trọng, tinh tế và dễ nhận diện trên nhiều nền tảng.",
     description_en:
       "A modern brand identity system for Winola, focused on elegance, clarity, and strong recognition across multiple touchpoints.",
-    tags: ["Nhận diện thương hiệu", "Thiết kế hệ thống", "Branding"],
-    tags_en: ["Brand Identity", "System Design", "Branding"],
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote: "Vẻ đẹp vượt thời gian, định hình sắc sảo",
     about_content: `<p><strong>Khai thác Brief</strong></p>
 <p>Winola Fine Jewelry là thương hiệu trang sức cao cấp Việt Nam, hướng đến những phụ nữ hiện đại trân trọng vẻ đẹp tinh tế và bản sắc cá nhân. Bài toán đặt ra cho dự án là xây dựng một hệ thống nhận diện đủ linh hoạt để thích nghi trên mọi nền tảng—từ bao bì sản phẩm, quảng cáo ngoài trời, đến trải nghiệm số—đồng thời đủ mạnh để tạo ấn tượng ngay từ cái nhìn đầu tiên trong một thị trường trang sức vốn đã có nhiều tên tuổi định hình sẵn.</p>
@@ -320,8 +320,8 @@ export const projects: Project[] = [
     folder: "/projects/yummy-feast",
     description: "Yummy Feast là dòng thức ăn dạng thanh hoàn chỉnh cho mèo, dành cho những người nuôi mèo coi trọng dinh dưỡng khoa học nhưng vẫn ưu tiên sự tiện lợi trong từng bữa ăn. Thay vì mượn hình ảnh hấp dẫn vị giác quen thuộc của ngành hàng, Yummy Feast chọn ngôn ngữ thị giác gần với nhãn dinh dưỡng—rõ ràng, có số liệu, đáng tin cậy—để khẳng định vị thế một bữa ăn chính hoàn chỉnh, chứ không đơn thuần là một món snack cho mèo.",
     description_en: "Yummy Feast is a complete bar-form cat food designed for cat owners who prioritize scientific nutrition while valuing convenience in every meal. Rather than borrowing the familiar, appetite-appealing imagery of the pet food category, Yummy Feast adopts a visual language closer to nutrition labels—clear, data-driven, and trustworthy—to establish itself as a complete primary meal, not merely a pet snack.",
-    tags: ["Bao bì", "Thiết kế bao bì"],
-    tags_en: ["Packaging", "Packaging Design"],
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote_en: "Every stick is a complete meal",
     about_content_en: `<p>In a pet food category crowded with images of raw meat and loud nutritional claims, Yummy Feast set out to speak a different language—one closer to the clarity of a nutrition label than the noise of a snack aisle. Developed as a complete meal in stick form for cats, Yummy Feast is aimed at owners who take feline nutrition seriously, and who value convenience without compromising on rigor.</p>
 <p><strong>The Brief</strong></p>
@@ -369,15 +369,15 @@ export const projects: Project[] = [
       "12-1.webp",
       "12-2.webp",
     ],
-    category: 'packaging',
+    category: 'branding',
   },
   {
-    title: "Đẳng cấp",
+    title: "Lettering Collection",
     folder: "/projects/lettering",
-    description: "Tác phẩm lettering Đẳng cấp.",
-    description_en: "Lettering artwork: Đẳng cấp.",
-    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
-    tags_en: ["Lettering", "Typography", "Word Art"],
+    description: "Một bộ sưu tập các tác phẩm thiết kế chữ.",
+    description_en: "A collection of custom lettering artworks.",
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
     about_quote: "Nghệ thuật của chữ viết",
     about_content: `<p>Một cuộc thám hiểm nghệ thuật chữ tự khởi xướng nhằm đẩy lùi những ranh giới của thiết kế lettering tùy chỉnh và khả năng biểu đạt thị giác.</p>
 <p>Các con chữ thường chỉ được xem như những phương tiện chức năng để đọc, phớt lờ đi tiềm năng to lớn của chúng với tư cách là nghệ thuật thị giác độc lập.</p>
@@ -392,103 +392,12 @@ export const projects: Project[] = [
 <p>Deconstructing standard letterforms to create bespoke, rhythm-driven artwork that conveys emotion before it is even read.</p>
 <p>Precise curves, unique ligatures, and a strong emphasis on structural balance, flow, and negative space.</p>
 <p>Acting as a testament to craftsmanship, these artworks inspire a deeper appreciation for the nuanced, expressive beauty of typography.</p>`,
-    images: ["dang-cap.jpg"],
-    category: 'lettering',
-  },
-  {
-    title: "Ghet Xog Lai Thik",
-    folder: "/projects/lettering",
-    description: "Tác phẩm lettering Ghet Xog Lai Thik.",
-    description_en: "Lettering artwork: Ghet Xog Lai Thik.",
-    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
-    tags_en: ["Lettering", "Typography", "Word Art"],
-    about_quote: "Nghệ thuật của chữ viết",
-    about_content: `<p>Một cuộc thám hiểm nghệ thuật chữ tự khởi xướng nhằm đẩy lùi những ranh giới của thiết kế lettering tùy chỉnh và khả năng biểu đạt thị giác.</p>
-<p>Các con chữ thường chỉ được xem như những phương tiện chức năng để đọc, phớt lờ đi tiềm năng to lớn của chúng với tư cách là nghệ thuật thị giác độc lập.</p>
-<p>"Nghệ thuật của chữ viết" – Nâng tầm typography để trở thành chủ thể thị giác chính yếu.</p>
-<p>Tái cấu trúc các hình thái chữ cái tiêu chuẩn để tạo ra các tác phẩm nghệ thuật riêng biệt, dẫn dắt bởi nhịp điệu nhằm truyền tải cảm xúc ngay cả trước khi chúng được đọc.</p>
-<p>Những đường cong chuẩn xác, các nét nối (ligatures) độc đáo, cùng sự nhấn mạnh mạnh mẽ vào sự cân bằng cấu trúc, dòng chảy và khoảng trắng.</p>
-<p>Đóng vai trò như một minh chứng cho tay nghề thủ công, các tác phẩm này truyền cảm hứng cho một sự trân trọng sâu sắc hơn đối với vẻ đẹp biểu cảm và tinh tế của typography.</p>`,
-    about_quote_en: "The art of the written word",
-    about_content_en: `<p>A self-initiated typographic exploration to push the boundaries of custom lettering and visual expression.</p>
-<p>Letters are often viewed merely as functional vessels for reading, ignoring their profound potential as standalone visual art.</p>
-<p>"The art of the written word" – Elevating typography to become the primary visual subject.</p>
-<p>Deconstructing standard letterforms to create bespoke, rhythm-driven artwork that conveys emotion before it is even read.</p>
-<p>Precise curves, unique ligatures, and a strong emphasis on structural balance, flow, and negative space.</p>
-<p>Acting as a testament to craftsmanship, these artworks inspire a deeper appreciation for the nuanced, expressive beauty of typography.</p>`,
-    images: ["ghet-xog-lai-thik.jpg"],
-    category: 'lettering',
-  },
-  {
-    title: "Ngày của mẹ",
-    folder: "/projects/lettering",
-    description: "Tác phẩm lettering Ngày của mẹ.",
-    description_en: "Lettering artwork: Ngày của mẹ.",
-    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
-    tags_en: ["Lettering", "Typography", "Word Art"],
-    about_quote: "Nghệ thuật của chữ viết",
-    about_content: `<p>Một cuộc thám hiểm nghệ thuật chữ tự khởi xướng nhằm đẩy lùi những ranh giới của thiết kế lettering tùy chỉnh và khả năng biểu đạt thị giác.</p>
-<p>Các con chữ thường chỉ được xem như những phương tiện chức năng để đọc, phớt lờ đi tiềm năng to lớn của chúng với tư cách là nghệ thuật thị giác độc lập.</p>
-<p>"Nghệ thuật của chữ viết" – Nâng tầm typography để trở thành chủ thể thị giác chính yếu.</p>
-<p>Tái cấu trúc các hình thái chữ cái tiêu chuẩn để tạo ra các tác phẩm nghệ thuật riêng biệt, dẫn dắt bởi nhịp điệu nhằm truyền tải cảm xúc ngay cả trước khi chúng được đọc.</p>
-<p>Những đường cong chuẩn xác, các nét nối (ligatures) độc đáo, cùng sự nhấn mạnh mạnh mẽ vào sự cân bằng cấu trúc, dòng chảy và khoảng trắng.</p>
-<p>Đóng vai trò như một minh chứng cho tay nghề thủ công, các tác phẩm này truyền cảm hứng cho một sự trân trọng sâu sắc hơn đối với vẻ đẹp biểu cảm và tinh tế của typography.</p>`,
-    about_quote_en: "The art of the written word",
-    about_content_en: `<p>A self-initiated typographic exploration to push the boundaries of custom lettering and visual expression.</p>
-<p>Letters are often viewed merely as functional vessels for reading, ignoring their profound potential as standalone visual art.</p>
-<p>"The art of the written word" – Elevating typography to become the primary visual subject.</p>
-<p>Deconstructing standard letterforms to create bespoke, rhythm-driven artwork that conveys emotion before it is even read.</p>
-<p>Precise curves, unique ligatures, and a strong emphasis on structural balance, flow, and negative space.</p>
-<p>Acting as a testament to craftsmanship, these artworks inspire a deeper appreciation for the nuanced, expressive beauty of typography.</p>`,
-    images: ["ngay-cua-me.jpg"],
-    category: 'lettering',
-  },
-  {
-    title: "Vạn sự như ý",
-    folder: "/projects/lettering",
-    description: "Tác phẩm lettering Vạn sự như ý.",
-    description_en: "Lettering artwork: Vạn sự như ý.",
-    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
-    tags_en: ["Lettering", "Typography", "Word Art"],
-    about_quote: "Nghệ thuật của chữ viết",
-    about_content: `<p>Một cuộc thám hiểm nghệ thuật chữ tự khởi xướng nhằm đẩy lùi những ranh giới của thiết kế lettering tùy chỉnh và khả năng biểu đạt thị giác.</p>
-<p>Các con chữ thường chỉ được xem như những phương tiện chức năng để đọc, phớt lờ đi tiềm năng to lớn của chúng với tư cách là nghệ thuật thị giác độc lập.</p>
-<p>"Nghệ thuật của chữ viết" – Nâng tầm typography để trở thành chủ thể thị giác chính yếu.</p>
-<p>Tái cấu trúc các hình thái chữ cái tiêu chuẩn để tạo ra các tác phẩm nghệ thuật riêng biệt, dẫn dắt bởi nhịp điệu nhằm truyền tải cảm xúc ngay cả trước khi chúng được đọc.</p>
-<p>Những đường cong chuẩn xác, các nét nối (ligatures) độc đáo, cùng sự nhấn mạnh mạnh mẽ vào sự cân bằng cấu trúc, dòng chảy và khoảng trắng.</p>
-<p>Đóng vai trò như một minh chứng cho tay nghề thủ công, các tác phẩm này truyền cảm hứng cho một sự trân trọng sâu sắc hơn đối với vẻ đẹp biểu cảm và tinh tế của typography.</p>`,
-    about_quote_en: "The art of the written word",
-    about_content_en: `<p>A self-initiated typographic exploration to push the boundaries of custom lettering and visual expression.</p>
-<p>Letters are often viewed merely as functional vessels for reading, ignoring their profound potential as standalone visual art.</p>
-<p>"The art of the written word" – Elevating typography to become the primary visual subject.</p>
-<p>Deconstructing standard letterforms to create bespoke, rhythm-driven artwork that conveys emotion before it is even read.</p>
-<p>Precise curves, unique ligatures, and a strong emphasis on structural balance, flow, and negative space.</p>
-<p>Acting as a testament to craftsmanship, these artworks inspire a deeper appreciation for the nuanced, expressive beauty of typography.</p>`,
-    images: ["van-su-nhu-y.jpg"],
-    category: 'lettering',
-  },
-  {
-    title: "Phú Yên 78",
-    folder: "/projects/lettering",
-    description: "Tác phẩm lettering Phú Yên 78.",
-    description_en: "Lettering artwork: Phu Yen 78.",
-    tags: ["Lettering", "Typography", "Nghệ thuật chữ"],
-    tags_en: ["Lettering", "Typography", "Word Art"],
-    about_quote: "Nghệ thuật của chữ viết",
-    about_content: `<p>Một cuộc thám hiểm nghệ thuật chữ tự khởi xướng nhằm đẩy lùi những ranh giới của thiết kế lettering tùy chỉnh và khả năng biểu đạt thị giác.</p>
-<p>Các con chữ thường chỉ được xem như những phương tiện chức năng để đọc, phớt lờ đi tiềm năng to lớn của chúng với tư cách là nghệ thuật thị giác độc lập.</p>
-<p>"Nghệ thuật của chữ viết" – Nâng tầm typography để trở thành chủ thể thị giác chính yếu.</p>
-<p>Tái cấu trúc các hình thái chữ cái tiêu chuẩn để tạo ra các tác phẩm nghệ thuật riêng biệt, dẫn dắt bởi nhịp điệu nhằm truyền tải cảm xúc ngay cả trước khi chúng được đọc.</p>
-<p>Những đường cong chuẩn xác, các nét nối (ligatures) độc đáo, cùng sự nhấn mạnh mạnh mẽ vào sự cân bằng cấu trúc, dòng chảy và khoảng trắng.</p>
-<p>Đóng vai trò như một minh chứng cho tay nghề thủ công, các tác phẩm này truyền cảm hứng cho một sự trân trọng sâu sắc hơn đối với vẻ đẹp biểu cảm và tinh tế của typography.</p>`,
-    about_quote_en: "The art of the written word",
-    about_content_en: `<p>A self-initiated typographic exploration to push the boundaries of custom lettering and visual expression.</p>
-<p>Letters are often viewed merely as functional vessels for reading, ignoring their profound potential as standalone visual art.</p>
-<p>"The art of the written word" – Elevating typography to become the primary visual subject.</p>
-<p>Deconstructing standard letterforms to create bespoke, rhythm-driven artwork that conveys emotion before it is even read.</p>
-<p>Precise curves, unique ligatures, and a strong emphasis on structural balance, flow, and negative space.</p>
-<p>Acting as a testament to craftsmanship, these artworks inspire a deeper appreciation for the nuanced, expressive beauty of typography.</p>`,
-    images: ["phu-yen-78.jpg"],
-    category: 'lettering',
-  }
-];
+    images: [
+      "dang-cap.jpg",
+      "ghet-xog-lai-thik.jpg",
+      "ngay-cua-me.jpg",
+      "van-su-nhu-y.jpg",
+      "phu-yen-78.jpg"
+    ],
+    category: 'branding',
+  }];

@@ -74,6 +74,12 @@ h1, h2, h3, h4, p, figure {
   padding: 0 clamp(20px, 5vw, 100px);
 }
 
+.container-narrow {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 100px);
+}
+
 .about-container {
   padding: clamp(120px, 15vw, 200px) clamp(40px, 8vw, 100px);
   max-width: 1000px;
@@ -347,7 +353,7 @@ h1, h2, h3, h4, p, figure {
 }
 
 .section-title {
-  font-size: clamp(32px, 5vw, 64px);
+  font-size: clamp(24px, 4vw, 48px);
   font-weight: 400;
   margin-bottom: 40px;
   text-transform: uppercase;

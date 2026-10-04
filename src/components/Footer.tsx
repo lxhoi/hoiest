@@ -28,9 +28,9 @@ export default function Footer() {
               <a href="https://www.threads.com/@hoiest.design" target="_blank" rel="noopener noreferrer">Threads</a>
               <a href="https://www.youtube.com/@hoiest" target="_blank" rel="noopener noreferrer">Youtube</a>
               <a href="mailto:lxhoi.2k@gmail.com">Email</a>
-              <a href="tel:081291478">Phone</a>
-              <a href="https://zalo.me/081291478" target="_blank" rel="noopener noreferrer">Zalo</a>
-              <a href="https://wa.me/081291478" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href="tel:+84812914786">Phone</a>
+              <a href="https://zalo.me/0812914786" target="_blank" rel="noopener noreferrer">Zalo</a>
+              <a href="https://wa.me/84812914786" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
         </div>

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "work": "Work",
+    "archives": "Archives",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "contact": "Contact",
+    "slider": ["Brand Identity", "Lettering", "Key Visual"]
+  },
+  "common": {
+    "btn_back": "Back to Home",
+    "btn_read_more": "Read more"
+  },
+  "about": {
+    "title": "ABOUT",
+    "intro": {"role": "Lê Xuân Hội (Bryan) is a Visual & Product Designer working across UI/UX, brand identity, and design systems.", "summary": "With over 6 years of experience, he creates visual systems that make brands clear, distinctive, and consistent across every touchpoint.", "philosophy": "His people-first approach begins with understanding needs, behaviour, and emotion—then turns those insights into work that is both meaningful and practical.", "location": "Based in Ho Chi Minh City, Vietnam"},
+    "timeline": {"eyebrow": "PROFILE", "current": {"date": "2020 — PRESENT", "role": "Brand Designer", "company": "Kobizo", "description": "Developing visual direction and identity systems across branding, UI, motion, and digital design to build cohesive brand experiences.", "focus": {"brand_identity": "Brand Identity · Master", "art_direction": "Art Direction", "packaging": "Packaging Design · Master", "ui_design": "UI Design", "social_media": "Social Media Design", "illustration": "Illustration"}}, "particula": {"date": "2025 — 2026", "role": "UI/UX Designer", "company": "Particula", "description": "Collaborated on the brand identity, UI design system, and motion graphics for a tokenized-asset analytics SaaS platform.", "focus": {"brand_identity": "Brand Identity", "ui_system": "UI Design System · Master", "motion_graphics": "Motion Graphics"}}},
+    "personal": {"title": "PERSONAL INFORMATION", "name": "Full name: Lê Xuân Hội", "birth": "Date of birth: 03/03/2000", "location": "Current location: Binh Thanh, Ho Chi Minh City"},
+    "education": {"title": "EDUCATION", "school": "University of Economics Ho Chi Minh City", "years": "2018 — 2022", "degree": "Bachelor's Degree in English Language · GPA 7.7"},
+    "skills": {"title": "SKILLS", "brand_identity": "Brand Identity", "brand_design": "Brand Design", "art_direction": "Art Direction", "packaging": "Packaging Design", "editorial_layout": "Editorial Layout Design", "ui_design": "UI Design", "ui_ux_design": "UI/UX Design", "social_media": "Social Media Design", "illustration": "Illustration", "research_synthesis": "Research Synthesis", "user_research_discovery": "User Research and Problem Discovery", "information_architecture": "Information Architecture", "interactive_prototyping": "Interactive Prototyping", "responsive_design": "Mobile & Responsive Design", "user_modeling": "User Modeling", "ideation_wireframing": "Ideation & Wireframing", "design_systems": "Design Systems", "high_fidelity_ui": "High-Fidelity UI Design"},
+    "expertise": {"title": "FOCUS", "brand": "Brand identity systems", "digital": "UI & digital experience", "motion": "Motion & visual direction"},
+    "contact": {"title": "CONTACT"},
+    "additional_skills": {"gen_ai_vibe_coding": "GenAI / Vibe Coding", "visual_design_systems_scaling": "Visual Design + Systems Scaling", "typography": "Typography", "art_direction": "Art Direction"},
+    "text": "With over 6 years in the industry, currently working in Ho Chi Minh City as a brand identity and typography designer. Combining strategic thinking with hands-on experience across multiple projects, Hoi delivers systematic identity solutions that help brands stand out in the market and create long-term competitive advantages.",
+    "specialties": "Specializing in Brand Identity, Lettering, Typography, Key Visuals, Packaging, Mascots, and Illustration.",
+    "expertise": {
+      "title": "EXPERTISE",
+      "identity": "Brand Identity",
+      "identity_desc": "Creating comprehensive visual systems including logo design, color palettes, typography, and brand guidelines.",
+      "visual": "Visual Design",
+      "visual_desc": "Designing marketing collateral, packaging, digital assets, and visual content that strengthens brand presence.",
+      "strategy": "Brand Strategy",
+      "strategy_desc": "Developing strategic brand positioning through research, competitive analysis, and audience insights."
+    },
+    "services": {
+      "title": "SERVICES",
+      "list1": "Logo & Brand Mark Design",
+      "list2": "Brand Identity Systems",
+      "list3": "Brand Guidelines & Documentation",
+      "list4": "Visual Marketing Assets",
+      "list5": "Packaging Design",
+      "list6": "Brand Consultation & Strategy"
+    },
+    "approach": {
+      "title": "MY APPROACH",
+      "text": "Every project begins with discovery. I conduct in-depth research to understand your business, audience, and competitive landscape. From there, I develop strategic concepts that are visually distinctive yet commercially viable. My process emphasizes collaboration and refinement, ensuring the final identity not only looks remarkable but also effectively communicates your brand's core values and mission."
+    }
+  },
+  "work": {
+    "title": "ALL WORK",
+    "project_other": "Other Projects",
+    "tabs": {
+      "branding": "Brand Identity",
+      "ui_ux": "Packaging",
+      "packaging": "Packaging"
+    }
+  },
+  "contact": {
+    "title": "LET'S WORK TOGETHER",
+    "subtitle": "Ready to create something amazing together? Fill out the form below to schedule a quick chat so we can discuss your project. I typically respond within 48 hours.",
+    "label": {
+      "name": "Name",
+      "email": "Email",
+      "brand": "Brand/Product Name",
+      "deadline": "Estimated Deadline",
+      "budget": "Estimated Budget",
+      "source": "How did you find me?",
+      "desc": "Brief Project Description"
+    },
+    "btn": {
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "cta": "WORK WITH ME",
+    "social": "SOCIAL MEDIA",
+    "copyright": "© COPYRIGHT HOIEST<br>ALL RIGHTS RESERVED"
+  }
+}

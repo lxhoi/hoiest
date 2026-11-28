@@ -16,6 +16,57 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "SERORI",
+    folder: "/projects/serori",
+    description:
+      "SERORI là dự án nhận diện thương hiệu cho một thương hiệu nông nghiệp thông minh, kết hợp chuyên môn canh tác và công nghệ thực tiễn nhằm nâng cao năng suất, tối ưu tài nguyên và hướng tới hệ thống nông nghiệp bền vững. Bộ nhận diện khai thác ngôn ngữ đồ họa nhánh cây kết hợp mạch dẫn, sắc xanh rừng sâu và kem lá nhạt, triển khai đồng bộ từ văn phòng phẩm, ấn phẩm chiến dịch, biển bảng ngoài trời đến không gian văn phòng và trang bị thực địa.",
+    description_en:
+      "SERORI is a brand identity project for a smart agriculture brand that bridges agronomic expertise and practical technology to boost crop yields, optimize farm resources, and build more resilient food systems. Built around a branching stem-and-circuit visual language, deep forest green, and pale sage cream, the identity scales cohesively across stationery, campaign posters, outdoor billboards, glass office signage, team apparel, and field equipment.",
+    tags: ["Nhận diện thương hiệu"],
+    tags_en: ["Branding"],
+    about_quote: "Từ đồng ruộng đến tương lai nông nghiệp thông minh",
+    about_content: `<p><strong>Khai thác Brief</strong></p>
+<p>SERORI (dự án ý tưởng phục vụ thực hành thiết kế) đặt ra bài toán xây dựng hệ thống nhận diện thương hiệu cho một đơn vị nông nghiệp thông minh—nơi chuyên môn nông học và công nghệ thực tiễn đồng hành cùng nhà vườn và doanh nghiệp nông nghiệp xuyên suốt chu kỳ canh tác. Mục tiêu cốt lõi của thương hiệu là cải thiện năng suất và chất lượng mùa vụ, sử dụng nước và vật tư đầu vào hiệu quả hơn, giảm thất thoát cũng như chi phí vận hành, đồng thời cung cấp dữ liệu rõ ràng cho các quyết định hằng ngày trên đồng ruộng. Thách thức thiết kế nằm ở việc tạo ra một hệ thống thị giác vừa mang tinh thần kỹ thuật chính xác, vừa đủ gần gũi để hiện diện tự nhiên từ văn phòng hiện đại đến vườn cây thực địa.</p>
+<p><strong>Insight</strong></p>
+<p>Trong ngành nông nghiệp công nghệ cao, nhiều thương hiệu thường rơi vào một trong hai thái cực: hoặc quá khô khan với ngôn ngữ công nghệ lạnh lẽo, xa rời người nông dân trực tiếp canh tác; hoặc quá mộc mạc theo lối nông sản truyền thống, thiếu đi sức thuyết phục về khoa học cây trồng và khả năng mở rộng quy mô. Thực tế, người làm nông hiện đại không cần những lời hứa hẹn hào nhoáng—họ cần những giải pháp dễ tiếp cận, thích nghi tốt với điều kiện canh tác bản địa và kết nối liền mạch giữa tri thức, công nghệ và đất đai. Cơ hội cho SERORI là tìm ra một ngôn ngữ thị giác nơi "tự nhiên" và "kỹ thuật" không đối lập, mà nảy nở từ cùng một gốc rễ.</p>
+<p><strong>Big Idea</strong></p>
+<p>Từ insight đó, ý tưởng lớn được định hình xoay quanh tinh thần <em>"Từ đồng ruộng đến tương lai nông nghiệp thông minh"</em> (<em>Grow smarter with us</em>). Toàn bộ hệ nhận diện được xây dựng như một hệ sinh thái kết nối liên thông—nơi mọi hạt giống tri thức và giải pháp kỹ thuật bắt rễ từ nhu cầu thực tế của nhà nông, vươn nhánh và lan tỏa thành mùa màng bền vững.</p>
+<p><strong>Concept & Hình ảnh hiện lên</strong></p>
+<p>Trái tim của hệ nhận diện là biểu tượng chữ "S" cách điệu đặt trong khung hình thoi vững chãi, được cấu thành từ các dải gấp góc cạnh đan xen—vừa gợi liên tưởng đến dáng lá non, luống cây trồng theo hàng lối, vừa mang cấu trúc chuẩn xác của mạch dẫn công nghệ. Sánh đôi cùng biểu tượng là wordmark "SERORI" sử dụng kiểu chữ sans-serif hình học hiện đại, nổi bật với nét chấm vát chéo phía trên chữ "I" như một chồi lá vươn lên.</p>
+<p>Hệ thống đồ họa mở rộng từ sơ đồ tư duy <em>root → seed → branches → spread → smart farming → solutions → rise → agriculture → technology</em>: những đường nét mảnh nối tiếp nhau với góc bo tròn mềm mại, rẽ nhánh như thân cây đang sinh trưởng song hành cùng cấu trúc mạng lưới dữ liệu. Bổ trợ cho hệ đường nét này là họa tiết gân lá hữu cơ (leaf venation), tạo chiều sâu vật liệu khi ứng dụng lên mảng kính văn phòng, thẻ treo thực địa và ấn phẩm truyền thông.</p>
+<p>Bảng màu chủ đạo xoay quanh hai sắc thái tương phản tinh tế: xanh rừng sâu (deep forest green) đại diện cho sức sống cây trồng, chuyên môn vững vàng và sự bền vững; kết hợp cùng tông kem lá nhạt (pale sage cream) mang lại cảm giác thoáng đãng, sạch sẽ và ánh sáng sớm mai. Trên nền hệ thống đó, các thông điệp trụ cột như <em>Smart Farming</em>, <em>Agri Solutions / Expert Support</em> và <em>Growth Driven</em> được tổ chức thành bố cục ba cột rõ ràng, xuất hiện nhất quán từ danh thiếp hai mặt đặt giữa luống bắp cải đọng sương, loạt poster chiến dịch mùa vụ, túi đựng, biển bảng ngoài trời, lối vào văn phòng kính cho đến đồng phục, găng tay, mũ lưỡi trai và thẻ đeo của đội ngũ kỹ sư tại vườn cây ăn trái.</p>
+<p><strong>Vai trò thương hiệu</strong></p>
+<p>Với hệ thống nhận diện này, SERORI không chỉ dừng lại ở hình ảnh một nhà cung cấp công nghệ nông nghiệp, mà đóng vai trò như một người đồng hành đáng tin cậy trên từng thửa ruộng và khu vườn. Thương hiệu trở thành cầu nối giữa nhà nông, tri thức nông học và công nghệ ứng dụng—biến khái niệm nông nghiệp thông minh từ một thuật ngữ kỹ thuật thành những giải pháp thiết thực, dễ hiểu và giàu sức sống trong đời sống canh tác hằng ngày.</p>`,
+    about_quote_en: "From field to future, smarter agriculture",
+    about_content_en: `<p><strong>The Brief</strong></p>
+<p>SERORI (a fictional brand concept created for design practice) set out to establish a complete visual identity for a smart agriculture brand—one that brings agricultural expertise and practical technology together to support farms and agribusinesses across the entire growing cycle. The brand's core goals are clear: improve crop yield and quality, use water and farm inputs more efficiently, reduce avoidable losses and operating costs, and equip growers with clearer information for day-to-day decisions. The design challenge was to build an identity system precise enough to communicate agri-tech credibility, yet grounded enough to belong naturally from modern offices to real orchard fields.</p>
+<p><strong>Insight</strong></p>
+<p>Across the agri-tech landscape, visual identities often split into two extremes: overly clinical technology aesthetics that feel distant from everyday farming realities, or overly rustic agricultural tropes that fail to convey crop science and scalability. Yet modern growers are looking for accessible, scalable solutions that work in real local conditions—tools that connect land, knowledge, and engineering seamlessly. The opportunity for SERORI was to craft a visual language where botanical growth and technical precision originate from the exact same root.</p>
+<p><strong>Big Idea</strong></p>
+<p>From this insight, the big idea took shape around the promise <em>"From field to future, smarter agriculture"</em> (<em>Grow smarter with us</em>). The entire identity behaves like a living, interconnected system—where practical solutions take root in real field conditions, branch outward, and support resilient, resource-efficient farming.</p>
+<p><strong>Concept & Visual Identity</strong></p>
+<p>At the center of the identity sits a geometric diamond monogram formed by interlocking angular ribbons shaping an "S"—evoking both folded leaves or cultivated crop rows and the structured geometry of circuit pathways. It is paired with the "SERORI" wordmark in a clean geometric sans-serif, anchored by a diagonally sliced accent above the "I" that recalls an upward-growing leaf tip.</p>
+<p>The graphic language expands from the brand's <em>root → seed → branches → spread → smart farming → solutions → rise → agriculture → technology</em> diagram: crisp linear stems with smooth rounded bends branch outward like growing shoots mapped onto a data network. Balancing these clean structural lines is an intricate organic leaf-vein texture, adding tactile depth across frosted office glass, field tags, and outdoor displays.</p>
+<p>The color palette pairs deep forest green—conveying healthy crops, agronomic authority, and sustainability—with pale sage cream for clarity, daylight openness, and contrast. Across every touchpoint, a disciplined three-pillar typographic grid (<em>Smart Farming</em>, <em>Agri Solutions / Expert Support</em>, <em>Growth Driven</em>) unifies two-sided business cards photographed on dewy cabbage leaves, campaign posters featuring local harvest scenes, branded carry bags, roadside billboards, modern glass office entrances, team t-shirts, work gloves, field caps, and orchard harvest wear.</p>
+<p><strong>Brand Role</strong></p>
+<p>Through this identity system, SERORI positions itself not merely as an equipment or software vendor, but as a practical, grounded partner in the field. By visually uniting growers, agronomic knowledge, and scalable technology, the brand makes smart farming feel approachable, resilient, and built to grow alongside the people who cultivate the land.</p>`,
+    thumbnail: "01.png",
+    images: [
+      "01.png",
+      "02.png",
+      "03.png",
+      "04.png",
+      "05.png",
+      "06.png",
+      "07.png",
+      "08.png",
+      "09.png",
+      "10.png",
+      "11.png"
+    ],
+    category: 'branding',
+  },
+  {
     title: "Mezly Nail Lab",
     folder: "/projects/mezly-nail-lab",
     description: "Mézly Nail Lab là dự án xây dựng hệ thống nhận diện thương hiệu cho một không gian nail cao cấp, hướng đến trải nghiệm làm đẹp hiện đại, tinh tế và thư giãn. Thương hiệu tập trung vào sự cân bằng giữa kỹ thuật chăm sóc móng chuyên nghiệp và cảm xúc của khách hàng, nơi mỗi dịch vụ không chỉ là một quy trình làm đẹp mà còn là một khoảnh khắc tận hưởng bản thân.",

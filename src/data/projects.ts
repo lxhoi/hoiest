@@ -50,8 +50,9 @@ export const projects: Project[] = [
 <p>The color palette pairs deep forest green—conveying healthy crops, agronomic authority, and sustainability—with pale sage cream for clarity, daylight openness, and contrast. Across every touchpoint, a disciplined three-pillar typographic grid (<em>Smart Farming</em>, <em>Agri Solutions / Expert Support</em>, <em>Growth Driven</em>) unifies two-sided business cards photographed on dewy cabbage leaves, campaign posters featuring local harvest scenes, branded carry bags, roadside billboards, modern glass office entrances, team t-shirts, work gloves, field caps, and orchard harvest wear.</p>
 <p><strong>Brand Role</strong></p>
 <p>Through this identity system, SERORI positions itself not merely as an equipment or software vendor, but as a practical, grounded partner in the field. By visually uniting growers, agronomic knowledge, and scalable technology, the brand makes smart farming feel approachable, resilient, and built to grow alongside the people who cultivate the land.</p>`,
-    thumbnail: "01.png",
+    thumbnail: "11.png",
     images: [
+      "11.png",
       "01.png",
       "02.png",
       "03.png",
@@ -61,8 +62,7 @@ export const projects: Project[] = [
       "07.png",
       "08.png",
       "09.png",
-      "10.png",
-      "11.png"
+      "10.png"
     ],
     category: 'branding',
   },
